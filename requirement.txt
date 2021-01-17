@@ -1,2 +1,3 @@
 selenium
 email_validator
+mariadb
