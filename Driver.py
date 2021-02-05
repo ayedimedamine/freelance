@@ -147,14 +147,15 @@ class Driver:
     ## wait for it 
     def verify(self, my_id,code):
         print("connecting to ur Session .. ")
-        options = Options()
+        # options = Options()
         session = self.redis.get_my_session(my_id)
-        options.add_argument("--disable-infobars")
-        options.add_argument("--enable-file-cookies")
-            #options.add_argument('user-agent={}'.format(self.AGENT))
-        capabilities = options.to_capabilities()
-        driver = webdriver.Remote(command_executor=session['executor_url'], desired_capabilities=capabilities)
-        driver.session_id = session['session_id']
+        # options.add_argument("--disable-infobars")
+        # options.add_argument("--enable-file-cookies")
+        #     #options.add_argument('user-agent={}'.format(self.AGENT))
+        # capabilities = options.to_capabilities()
+        # driver = webdriver.Remote(command_executor=session['executor_url'], desired_capabilities=capabilities)
+        # driver.session_id = session['session_id']
+        driver = self.attach_to_session(session['executor_url'], session['session_id'])
         driver.save_screenshot('verifySession.png')
         #code = input("your sent code :")
         #driver.save_screenshot("verification0.png")
