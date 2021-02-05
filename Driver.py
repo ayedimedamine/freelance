@@ -88,7 +88,7 @@ class Driver:
             print("connecting to ur Session .. ")
             #driver.get('https://www.google.com')
             #driver.get('https://www.google.com/search?sxsrf=ALeKk020FnT0zEjfvA2K88ROyo0V62igYw%3A1612385352241&ei=SAwbYPacDsHIlAbSybH4Cg&q=what+is+my+ip&oq=what+is&gs_lcp=CgZwc3ktYWIQAxgAMgQIIxAnMgQIIxAnMgQIIxAnMgQIABBDMgQIABBDMgcIABAUEIcCMgIIADICCAAyAggAMgIIADoCCC46BQgAEJECOgUIABDLAToGCAAQFhAeOgUIABDJAzoFCAAQkgM6BAguEENQ3_kEWJ76BWDIhgZoA3ABeAGAAZ8GiAH9UJIBCjMtMS4xOC4xLjKYAQCgAQGqAQdnd3Mtd2l6wAEB&sclient=psy-ab')
-            driver.save_screenshot('gettingfreesession.png')
+            # driver.save_screenshot('gettingfreesession.png')
             #driver = webdriver.Chrome(options=chrome_options)
             #driver.get(URL)
             #print(driver.current_url)
@@ -100,11 +100,11 @@ class Driver:
             ea_email.send_keys(email)
             ea_password.send_keys(password)
             print('all keys sent perfectly ! ',email, password)
-            driver.save_screenshot('before_login_button.png')
+            # driver.save_screenshot('before_login_button.png')
             try :
                 #driver.set_page_load_timeout(5)
                 login_btn.click()
-                driver.save_screenshot('afterClick.png')
+                # driver.save_screenshot('afterClick.png')
                 print('login in..')
             except Exception :
                 #print(driver.current_url)
@@ -124,7 +124,7 @@ class Driver:
                 #driver.quit()
                 status = 'succ'
                 print('logged-in succesfully')
-                driver.save_screenshot('ifSUCC.png')
+                # driver.save_screenshot('ifSUCC.png')
                 #print('here',btncode)
                 try:
                     btncode = WebDriverWait(driver, 10).until(
