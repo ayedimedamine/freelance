@@ -1,3 +1,8 @@
 selenium
 email_validator
+flask
+flask_cors
 mariadb
+redis
+fake-useragent
+free-proxy
