@@ -1,2 +1,2 @@
 python3 ../flushMaster.py
-./run.sh
+./selenium/run.sh
