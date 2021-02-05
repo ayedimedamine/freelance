@@ -1,1 +1,1 @@
-sudo docker-compose restart
+sudo docker-compose up -d 
