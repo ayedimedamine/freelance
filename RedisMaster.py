@@ -1,23 +1,25 @@
 import redis
 import json
+### logger ###
+from log.conf_log import logger
 class Redis_handler :
     def __init__(self):
         self.r = redis.Redis(host='161.97.178.112', port=6379, db=0)
 
     def get_free_session(self):
-        print('getting free session...')
+        logger.info('getting free session...')
         result = self.r.lpop('available')
         
-        print('session imported from query ! ',result)
-        print('free sessions =>',self.r.llen('available'))
+        logger.info('session imported from query ! {}'.format(result))
+        logger.info('free sessions => {}'.format(self.r.llen('available')))
         result = json.loads(result)
-        print('free session => ',result)
+        logger.info('free session => {}'.format(result))
         return result
 
     def get_my_session(self,my_id):
-        print('getting MY SESSION...')
+        logger.info('getting MY SESSION...')
         result = self.r.lpop(my_id)
-        print('session ->', result)
+        logger.info('session -> {}'.format(result))
         result = json.loads(result) 
         return result
     
@@ -25,13 +27,13 @@ class Redis_handler :
         session = {"session_id":session_id,"executor_url":executor_url} 
         session = str(session).replace("'",'"')
         result = self.r.lpush(my_id,session)
-        print('session saved to query !',result)
+        logger.info('session saved to query ! {}'.format(result))
     
     def init_session(self,session_id,executor_url):
         session = {"session_id":session_id,"executor_url":executor_url}
         session = str(session).replace("'",'"')
         result = self.r.rpush('available',session)
-        print('session added to query !',result)
+        logger.info('session added to query ! {}'.format(result))
     
     
 # redis = Redis_handler()

