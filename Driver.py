@@ -28,7 +28,8 @@ class Driver:
         #self.PROXY = 'http://79.137.101.80:45785'
         #self.PROXY = 'http://45.128.187.184:45785'
         #self.PROXY = 'http://45.89.188.55:45785'
-        self.PROXY = "http://91.200.150.55:45785"
+        #self.PROXY = "http://91.200.150.55:45785"
+        self.PROXY = "http://212.60.22.63:45785"
         logger.info('THREAD : IP ADDR =>', self.PROXY)
         proxy_config = {'httpProxy': self.PROXY, 'sslProxy': self.PROXY}
         proxy_object = Proxy(raw=proxy_config)
@@ -170,6 +171,14 @@ class Driver:
                     break
                 except:
                     logger.warning('trying again')
+                    try :
+                        logger.info('THREAD : SESSION REPLACEMENT ..')
+                        x = threading.Thread(target=self.__init__)
+                        logger.info('THREAD CREATED')
+                        x.start()
+                        logger.info('THREAD : STARTED')
+                    except :
+                        logger.error('THREAD : cant create a new session While true')
 
             
             #driver.get('https://www.google.com')
