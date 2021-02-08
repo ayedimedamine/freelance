@@ -5,7 +5,7 @@ from log.conf_log import logger
 ### master ###
 from RedisMaster import Redis_handler
 import sys
-from config import URL
+from config import URL, PRX
 # from fp.fp import FreeProxy
 from fake_useragent import UserAgent
 from exceptions.errors import FixErrors
@@ -23,13 +23,14 @@ from selenium.webdriver.remote.webdriver import WebDriver
 import threading
 class Driver: 
     def __init__(self):
-        logger.info('setting up ip address')
+        logger.info('THREAD : setting up ip address')
         #PROXY = FreeProxy().get()
         #self.PROXY = 'http://79.137.101.80:45785'
         #self.PROXY = 'http://45.128.187.184:45785'
         #self.PROXY = 'http://45.89.188.55:45785'
         #self.PROXY = "http://91.200.150.55:45785"
-        self.PROXY = "http://212.60.22.63:45785"
+        # self.PROXY = "http://212.60.22.63:45785"
+        self.PROXY = PRX
         logger.info('THREAD : IP ADDR =>', self.PROXY)
         proxy_config = {'httpProxy': self.PROXY, 'sslProxy': self.PROXY}
         proxy_object = Proxy(raw=proxy_config)
@@ -94,6 +95,7 @@ class Driver:
         session_id = d.session_id 
         logger.info('THREAD : saving session to query ')
         self.redis.init_session(session_id, executor_url)
+        logger.info('----------> THREAD : DONE RESTORING SESSION')
 
     def attach_to_session(self,executor_url, session_id):
         original_execute = WebDriver.execute
@@ -160,7 +162,7 @@ class Driver:
                     logger.info(driver.current_url)
                     try :
                         logger.info('THREAD : SESSION REPLACEMENT ..')
-                        x = threading.Thread(target=self.__init__)
+                        x = threading.Thread(target=self.start_new_session)
                         logger.info('THREAD CREATED')
                         x.start()
                         logger.info('THREAD : STARTED')
@@ -173,7 +175,7 @@ class Driver:
                     logger.warning('trying again')
                     try :
                         logger.info('THREAD : SESSION REPLACEMENT ..')
-                        x = threading.Thread(target=self.__init__)
+                        x = threading.Thread(target=self.start_new_session)
                         logger.info('THREAD CREATED')
                         x.start()
                         logger.info('THREAD : STARTED')

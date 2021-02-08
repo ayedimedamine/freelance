@@ -1,10 +1,11 @@
 import redis
 import json
+from congig import HOST
 ### logger ###
 from log.conf_log import logger
 class Redis_handler :
     def __init__(self):
-        self.r = redis.Redis(host='161.97.178.112', port=6379, db=0)
+        self.r = redis.Redis(host=HOST, port=6379, db=0)
 
     def get_free_session(self):
         logger.info('getting free session...')

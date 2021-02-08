@@ -7,8 +7,8 @@ services:
 
     environment:
       GRID_MAX_SESSION: 200
-      GRID_BROWSER_TIMEOUT: 3000
-      GRID_TIMEOUT: 3000
+      GRID_BROWSER_TIMEOUT: 30000
+      GRID_TIMEOUT: 30000
 
   firefox:
     image: selenium/node-chrome

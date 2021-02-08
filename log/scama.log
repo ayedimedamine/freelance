@@ -9014,3 +9014,1486 @@ INFO : 2021-02-07 23:50:34,883 - new user in !
 INFO : 2021-02-07 23:55:07,227 - new user in !
 INFO : 2021-02-07 23:58:07,352 - new user in !
 INFO : 2021-02-07 23:58:17,585 - new user in !
+INFO : 2021-02-08 00:26:48,067 - getting infos..
+INFO : 2021-02-08 00:26:51,449 - getting infos..
+INFO : 2021-02-08 00:27:14,331 - new user in !
+INFO : 2021-02-08 00:43:40,966 - getting infos..
+INFO : 2021-02-08 00:45:16,754 - new user in !
+INFO : 2021-02-08 00:51:09,267 - new user in !
+INFO : 2021-02-08 00:55:07,532 - new user in !
+INFO : 2021-02-08 01:06:48,957 - new user in !
+INFO : 2021-02-08 01:33:15,679 - getting infos..
+INFO : 2021-02-08 01:33:24,838 - new user in !
+INFO : 2021-02-08 01:34:04,354 - getting free session...
+INFO : 2021-02-08 01:34:04,358 - session imported from query ! b'{"session_id": "6887ba11e21458c658bcd25c5ce1a32d", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:34:04,359 - free sessions => 9
+INFO : 2021-02-08 01:34:04,359 - free session => {'session_id': '6887ba11e21458c658bcd25c5ce1a32d', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 01:34:04,359 - connecting to a free Session .. 
+WARNING : 2021-02-08 01:34:04,385 - trying again
+INFO : 2021-02-08 01:34:04,385 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 01:34:04,385 - THREAD CREATED
+INFO : 2021-02-08 01:34:04,386 - setting up ip address
+INFO : 2021-02-08 01:34:04,392 - creating a remote session !
+INFO : 2021-02-08 01:34:04,392 - THREAD : STARTED
+INFO : 2021-02-08 01:34:04,392 - getting free session...
+INFO : 2021-02-08 01:34:04,393 - session imported from query ! b'{"session_id": "e1310392a31e49307d6710fba81d0dcf", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:34:04,394 - free sessions => 8
+INFO : 2021-02-08 01:34:04,394 - free session => {'session_id': 'e1310392a31e49307d6710fba81d0dcf', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 01:34:04,394 - connecting to a free Session .. 
+INFO : 2021-02-08 01:34:04,395 - THREAD : opening ea url
+WARNING : 2021-02-08 01:34:04,422 - trying again
+INFO : 2021-02-08 01:34:04,423 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 01:34:04,423 - THREAD CREATED
+INFO : 2021-02-08 01:34:04,423 - setting up ip address
+INFO : 2021-02-08 01:34:04,424 - creating a remote session !
+INFO : 2021-02-08 01:34:04,426 - THREAD : STARTED
+INFO : 2021-02-08 01:34:04,427 - getting free session...
+INFO : 2021-02-08 01:34:04,429 - session imported from query ! b'{"session_id": "364988257082d877c8f0d42477415e1b", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:34:04,431 - free sessions => 7
+INFO : 2021-02-08 01:34:04,431 - free session => {'session_id': '364988257082d877c8f0d42477415e1b', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 01:34:04,431 - connecting to a free Session .. 
+WARNING : 2021-02-08 01:34:04,444 - trying again
+INFO : 2021-02-08 01:34:04,444 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 01:34:04,444 - THREAD CREATED
+INFO : 2021-02-08 01:34:04,444 - setting up ip address
+INFO : 2021-02-08 01:34:04,445 - creating a remote session !
+INFO : 2021-02-08 01:34:04,445 - THREAD : STARTED
+INFO : 2021-02-08 01:34:04,446 - getting free session...
+INFO : 2021-02-08 01:34:04,447 - session imported from query ! b'{"session_id": "cbfa969192dc9a29bb6d5a0a5ef5de39", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:34:04,447 - free sessions => 6
+INFO : 2021-02-08 01:34:04,447 - free session => {'session_id': 'cbfa969192dc9a29bb6d5a0a5ef5de39', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 01:34:04,447 - connecting to a free Session .. 
+INFO : 2021-02-08 01:34:04,448 - THREAD : opening ea url
+WARNING : 2021-02-08 01:34:04,469 - trying again
+INFO : 2021-02-08 01:34:04,469 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 01:34:04,469 - THREAD CREATED
+INFO : 2021-02-08 01:34:04,470 - setting up ip address
+INFO : 2021-02-08 01:34:04,472 - creating a remote session !
+INFO : 2021-02-08 01:34:04,472 - THREAD : STARTED
+INFO : 2021-02-08 01:34:04,472 - getting free session...
+INFO : 2021-02-08 01:34:04,476 - session imported from query ! b'{"session_id": "e87c461b5994053a28e2b6f630131b70", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:34:04,487 - free sessions => 5
+INFO : 2021-02-08 01:34:04,487 - free session => {'session_id': 'e87c461b5994053a28e2b6f630131b70', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 01:34:04,487 - connecting to a free Session .. 
+WARNING : 2021-02-08 01:34:04,508 - trying again
+INFO : 2021-02-08 01:34:04,508 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 01:34:04,508 - THREAD CREATED
+INFO : 2021-02-08 01:34:04,508 - setting up ip address
+INFO : 2021-02-08 01:34:04,515 - creating a remote session !
+INFO : 2021-02-08 01:34:04,519 - THREAD : STARTED
+INFO : 2021-02-08 01:34:04,519 - getting free session...
+INFO : 2021-02-08 01:34:04,531 - session imported from query ! b'{"session_id": "3554472cbd5f31c41977333d63bb09be", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:34:04,532 - free sessions => 4
+INFO : 2021-02-08 01:34:04,532 - free session => {'session_id': '3554472cbd5f31c41977333d63bb09be', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 01:34:04,532 - connecting to a free Session .. 
+WARNING : 2021-02-08 01:34:04,566 - trying again
+INFO : 2021-02-08 01:34:04,566 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 01:34:04,566 - THREAD CREATED
+INFO : 2021-02-08 01:34:04,567 - setting up ip address
+INFO : 2021-02-08 01:34:04,568 - creating a remote session !
+INFO : 2021-02-08 01:34:04,568 - THREAD : STARTED
+INFO : 2021-02-08 01:34:04,568 - getting free session...
+INFO : 2021-02-08 01:34:04,569 - session imported from query ! b'{"session_id": "3ff58758121fc978ae04248241a854d1", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:34:04,569 - free sessions => 3
+INFO : 2021-02-08 01:34:04,569 - free session => {'session_id': '3ff58758121fc978ae04248241a854d1', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 01:34:04,570 - connecting to a free Session .. 
+INFO : 2021-02-08 01:34:04,571 - THREAD : opening ea url
+WARNING : 2021-02-08 01:34:04,580 - trying again
+INFO : 2021-02-08 01:34:04,580 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 01:34:04,581 - THREAD CREATED
+INFO : 2021-02-08 01:34:04,581 - setting up ip address
+INFO : 2021-02-08 01:34:04,582 - creating a remote session !
+INFO : 2021-02-08 01:34:04,583 - THREAD : STARTED
+INFO : 2021-02-08 01:34:04,583 - getting free session...
+INFO : 2021-02-08 01:34:04,589 - session imported from query ! b'{"session_id": "97e4eef16366045d99d80775609643ff", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:34:04,589 - free sessions => 2
+INFO : 2021-02-08 01:34:04,589 - free session => {'session_id': '97e4eef16366045d99d80775609643ff', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 01:34:04,589 - connecting to a free Session .. 
+INFO : 2021-02-08 01:34:04,591 - THREAD : opening ea url
+WARNING : 2021-02-08 01:34:04,604 - trying again
+INFO : 2021-02-08 01:34:04,605 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 01:34:04,605 - THREAD CREATED
+INFO : 2021-02-08 01:34:04,605 - setting up ip address
+INFO : 2021-02-08 01:34:04,606 - creating a remote session !
+INFO : 2021-02-08 01:34:04,607 - THREAD : STARTED
+INFO : 2021-02-08 01:34:04,607 - getting free session...
+INFO : 2021-02-08 01:34:04,611 - session imported from query ! b'{"session_id": "bf1851989bbe419e61ae60915956d83c", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:34:04,612 - free sessions => 1
+INFO : 2021-02-08 01:34:04,612 - free session => {'session_id': 'bf1851989bbe419e61ae60915956d83c', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 01:34:04,612 - connecting to a free Session .. 
+INFO : 2021-02-08 01:34:04,613 - THREAD : opening ea url
+WARNING : 2021-02-08 01:34:04,638 - trying again
+INFO : 2021-02-08 01:34:04,647 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 01:34:04,647 - THREAD CREATED
+INFO : 2021-02-08 01:34:04,647 - setting up ip address
+INFO : 2021-02-08 01:34:04,648 - creating a remote session !
+INFO : 2021-02-08 01:34:04,649 - THREAD : STARTED
+INFO : 2021-02-08 01:34:04,649 - getting free session...
+INFO : 2021-02-08 01:34:04,655 - session imported from query ! b'{"session_id": "a23211e2c423ba3c42357de2970fe5b2", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:34:04,655 - free sessions => 0
+INFO : 2021-02-08 01:34:04,655 - free session => {'session_id': 'a23211e2c423ba3c42357de2970fe5b2', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 01:34:04,655 - connecting to a free Session .. 
+INFO : 2021-02-08 01:34:04,656 - THREAD : opening ea url
+WARNING : 2021-02-08 01:34:04,664 - trying again
+INFO : 2021-02-08 01:34:04,664 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 01:34:04,664 - THREAD CREATED
+INFO : 2021-02-08 01:34:04,665 - setting up ip address
+INFO : 2021-02-08 01:34:04,666 - creating a remote session !
+INFO : 2021-02-08 01:34:04,666 - THREAD : STARTED
+INFO : 2021-02-08 01:34:04,666 - getting free session...
+INFO : 2021-02-08 01:34:04,668 - session imported from query ! None
+INFO : 2021-02-08 01:34:04,669 - free sessions => 0
+ERROR : 2021-02-08 01:34:04,670 - Exception on /processing [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 133, in process
+    status = driver.login(_id, email, password)
+  File "/home/amine/version3/freelance/Driver.py", line 156, in login
+    session_firefox = self.redis.get_free_session()
+  File "/home/amine/version3/freelance/RedisMaster.py", line 15, in get_free_session
+    result = json.loads(result)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+INFO : 2021-02-08 01:34:06,873 - THREAD : opening ea url
+INFO : 2021-02-08 01:34:06,879 - THREAD : opening ea url
+INFO : 2021-02-08 01:34:06,889 - THREAD : opening ea url
+INFO : 2021-02-08 01:34:06,936 - THREAD : opening ea url
+INFO : 2021-02-08 01:34:12,211 - THREAD : saving session to query 
+INFO : 2021-02-08 01:34:12,212 - session added to query ! 1
+INFO : 2021-02-08 01:34:12,391 - THREAD : saving session to query 
+INFO : 2021-02-08 01:34:12,391 - session added to query ! 2
+INFO : 2021-02-08 01:34:12,532 - THREAD : saving session to query 
+INFO : 2021-02-08 01:34:12,533 - session added to query ! 3
+INFO : 2021-02-08 01:34:12,680 - THREAD : saving session to query 
+INFO : 2021-02-08 01:34:12,681 - session added to query ! 4
+INFO : 2021-02-08 01:37:06,217 - new user in !
+INFO : 2021-02-08 01:37:13,296 - getting free session...
+INFO : 2021-02-08 01:37:13,297 - session imported from query ! b'{"session_id": "542ecb92febc6b16d793ed0950cf8d2f", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:37:13,297 - free sessions => 3
+INFO : 2021-02-08 01:37:13,297 - free session => {'session_id': '542ecb92febc6b16d793ed0950cf8d2f', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 01:37:13,297 - connecting to a free Session .. 
+INFO : 2021-02-08 01:37:13,328 - https://signin.ea.com/p/web2/login?execution=e134298284s1&initref=https%3A%2F%2Faccounts.ea.com%3A443%2Fconnect%2Fauth%3Fdisplay%3Dweb2%252Flogin%26scope%3Dbasic.identity%2Boffline%2Bsignin%2Bbasic.entitlement%2Bbasic.persona%26response_type%3Dtoken%26release_type%3Dprod%26redirect_uri%3Dhttps%253A%252F%252Fwww.ea.com%252Ffifa%252Fultimate-team%252Fweb-app%252Fauth.html%26accessToken%3Dnull%26locale%3Den_US%26prompt%3Dlogin%26client_id%3DFIFA21_JS_WEB_APP
+INFO : 2021-02-08 01:37:13,328 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 01:37:13,329 - THREAD CREATED
+INFO : 2021-02-08 01:37:13,329 - setting up ip address
+INFO : 2021-02-08 01:37:13,333 - creating a remote session !
+INFO : 2021-02-08 01:37:13,333 - THREAD : STARTED
+INFO : 2021-02-08 01:37:13,333 - THREAD : attach to session perfectly
+WARNING : 2021-02-08 01:37:13,333 - victim : skidrow.crack1@gmail.com Aminewaka123!
+INFO : 2021-02-08 01:37:13,333 - locating fields ..
+INFO : 2021-02-08 01:37:13,451 - writing keys
+INFO : 2021-02-08 01:37:13,878 - THREAD : opening ea url
+INFO : 2021-02-08 01:37:16,124 - login in..
+INFO : 2021-02-08 01:37:16,160 - logged-in succesfully
+INFO : 2021-02-08 01:37:16,988 - Saving current session
+INFO : 2021-02-08 01:37:16,991 - session saved to query ! 1
+INFO : 2021-02-08 01:37:16,991 - succ
+INFO : 2021-02-08 01:37:16,991 - skidrow.crack1@gmail.com Aminewaka123! 102.156.84.222
+WARNING : 2021-02-08 01:37:16,991 - succ
+INFO : 2021-02-08 01:37:17,002 - login infos added
+INFO : 2021-02-08 01:37:18,590 - THREAD : saving session to query 
+INFO : 2021-02-08 01:37:18,591 - session added to query ! 4
+INFO : 2021-02-08 01:37:27,605 - connecting to ur Session .. 
+INFO : 2021-02-08 01:37:27,605 - getting MY SESSION...
+INFO : 2021-02-08 01:37:27,607 - session -> b'{"session_id": "542ecb92febc6b16d793ed0950cf8d2f", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 01:37:27,609 - locating fields ..
+INFO : 2021-02-08 01:37:27,635 - sending keys
+INFO : 2021-02-08 01:37:28,513 - button clicked
+INFO : 2021-02-08 01:37:31,532 - GOT Cookies
+INFO : 2021-02-08 01:37:31,590 - 10176962021-02-08 01:37:13.296239 545454 102.156.84.222 [{"domain": "signin.ea.com", "expiry": 1613349434, "httponly": true, "name": "isphone", "path": "/", "samesite": "none", "secure": true, "value": "false"}, {"domain": "signin.ea.com", "expiry": 1613349434, "httponly": true, "name": "ispogo", "path": "/", "samesite": "none", "secure": true, "value": "false"}, {"domain": "signin.ea.com", "expiry": 1613349434, "httponly": true, "name": "webun", "path": "/", "samesite": "none", "secure": true, "value": "skidrow.crack1@gmail.com"}, {"domain": ".ea.com", "expiry": 1675816451, "httponly": false, "name": "_ga", "path": "/", "secure": false, "value": "ga1.2.324122073.1612744452"}, {"domain": "signin.ea.com", "httponly": true, "name": "signin-cookie", "path": "/", "samesite": "none", "secure": true, "value": ""f04eca6e39e9b0e5""}, {"domain": ".ea.com", "expiry": 1612744694, "httponly": false, "name": "_gat", "path": "/", "secure": false, "value": "1"}, {"domain": ".ea.com", "expiry": 1612830851, "httponly": false, "name": "_gid", "path": "/", "secure": false, "value": "ga1.2.610941919.1612744452"}, {"domain": "signin.ea.com", "httponly": true, "name": "jsessionid", "path": "/p", "samesite": "none", "secure": true, "value": "c939fcd8fe950046c3678bc17cde0e78.prdaccounts-122"}]
+INFO : 2021-02-08 01:37:31,593 - code added
+INFO : 2021-02-08 01:37:31,596 - cookies infos added TO DB
+INFO : 2021-02-08 01:40:10,569 - MariaDb has succussfully connected
+INFO : 2021-02-08 01:40:10,569 - MariaDb has succussfully connected
+INFO : 2021-02-08 01:40:10,569 - MariaDb has succussfully connected
+INFO : 2021-02-08 01:40:10,570 - MariaDb has succussfully connected
+INFO : 2021-02-08 01:40:10,570 - MariaDb has succussfully connected
+INFO : 2021-02-08 01:40:10,572 - setting up ip address
+INFO : 2021-02-08 01:40:10,572 - setting up ip address
+INFO : 2021-02-08 01:40:10,572 - setting up ip address
+INFO : 2021-02-08 01:40:10,572 - setting up ip address
+INFO : 2021-02-08 01:40:10,574 - setting up ip address
+INFO : 2021-02-08 01:40:10,575 - MariaDb has succussfully connected
+INFO : 2021-02-08 01:40:10,575 - MariaDb has succussfully connected
+INFO : 2021-02-08 01:40:10,576 - MariaDb has succussfully connected
+INFO : 2021-02-08 01:40:10,576 - MariaDb has succussfully connected
+INFO : 2021-02-08 01:40:10,577 - MariaDb has succussfully connected
+INFO : 2021-02-08 01:40:10,577 - setting up ip address
+INFO : 2021-02-08 01:40:10,577 - setting up ip address
+INFO : 2021-02-08 01:40:10,578 - setting up ip address
+INFO : 2021-02-08 01:40:10,579 - setting up ip address
+INFO : 2021-02-08 01:40:10,581 - setting up ip address
+INFO : 2021-02-08 01:40:10,581 - creating a remote session !
+INFO : 2021-02-08 01:40:10,582 - creating a remote session !
+INFO : 2021-02-08 01:40:10,582 - creating a remote session !
+INFO : 2021-02-08 01:40:10,582 - creating a remote session !
+INFO : 2021-02-08 01:40:10,582 - creating a remote session !
+INFO : 2021-02-08 01:40:10,583 - creating a remote session !
+INFO : 2021-02-08 01:40:10,584 - creating a remote session !
+INFO : 2021-02-08 01:40:10,584 - creating a remote session !
+INFO : 2021-02-08 01:40:10,586 - creating a remote session !
+INFO : 2021-02-08 01:40:10,588 - creating a remote session !
+INFO : 2021-02-08 01:40:11,740 - THREAD : opening ea url
+INFO : 2021-02-08 01:40:12,087 - THREAD : opening ea url
+INFO : 2021-02-08 01:40:12,205 - THREAD : opening ea url
+INFO : 2021-02-08 01:40:12,240 - THREAD : opening ea url
+INFO : 2021-02-08 01:40:12,276 - THREAD : opening ea url
+INFO : 2021-02-08 01:40:12,276 - THREAD : opening ea url
+INFO : 2021-02-08 01:40:12,326 - THREAD : opening ea url
+INFO : 2021-02-08 01:40:12,338 - THREAD : opening ea url
+INFO : 2021-02-08 01:40:12,404 - THREAD : opening ea url
+INFO : 2021-02-08 01:40:12,496 - THREAD : opening ea url
+INFO : 2021-02-08 01:40:17,317 - THREAD : saving session to query 
+INFO : 2021-02-08 01:40:17,323 - session added to query ! 1
+INFO : 2021-02-08 01:40:17,439 - THREAD : saving session to query 
+INFO : 2021-02-08 01:40:17,440 - session added to query ! 2
+INFO : 2021-02-08 01:40:17,745 - THREAD : saving session to query 
+INFO : 2021-02-08 01:40:17,753 - session added to query ! 3
+INFO : 2021-02-08 01:40:17,823 - THREAD : saving session to query 
+INFO : 2021-02-08 01:40:17,830 - session added to query ! 4
+INFO : 2021-02-08 01:40:17,970 - THREAD : saving session to query 
+INFO : 2021-02-08 01:40:17,972 - session added to query ! 5
+INFO : 2021-02-08 01:40:17,998 - THREAD : saving session to query 
+INFO : 2021-02-08 01:40:18,000 - session added to query ! 6
+INFO : 2021-02-08 01:40:18,032 - THREAD : saving session to query 
+INFO : 2021-02-08 01:40:18,035 - session added to query ! 7
+INFO : 2021-02-08 01:40:18,058 - THREAD : saving session to query 
+INFO : 2021-02-08 01:40:18,059 - session added to query ! 8
+INFO : 2021-02-08 01:40:18,200 - THREAD : saving session to query 
+INFO : 2021-02-08 01:40:18,201 - session added to query ! 9
+INFO : 2021-02-08 01:40:18,265 - THREAD : saving session to query 
+INFO : 2021-02-08 01:40:18,266 - session added to query ! 10
+INFO : 2021-02-08 01:42:53,406 - new user in !
+INFO : 2021-02-08 01:57:08,761 - new user in !
+INFO : 2021-02-08 02:18:16,667 - new user in !
+INFO : 2021-02-08 02:18:18,099 - new user in !
+INFO : 2021-02-08 02:57:09,401 - new user in !
+INFO : 2021-02-08 03:02:05,104 - new user in !
+INFO : 2021-02-08 03:12:39,319 - new user in !
+INFO : 2021-02-08 03:16:08,452 - new user in !
+INFO : 2021-02-08 03:16:37,323 - new user in !
+INFO : 2021-02-08 03:37:49,039 - new user in !
+INFO : 2021-02-08 04:07:33,341 - new user in !
+INFO : 2021-02-08 04:40:16,385 - new user in !
+INFO : 2021-02-08 04:44:21,010 - new user in !
+INFO : 2021-02-08 05:10:17,715 - new user in !
+INFO : 2021-02-08 05:10:17,743 - new user in !
+INFO : 2021-02-08 05:34:50,622 - new user in !
+INFO : 2021-02-08 06:33:32,811 - new user in !
+INFO : 2021-02-08 06:33:48,149 - getting free session...
+INFO : 2021-02-08 06:33:48,156 - session imported from query ! b'{"session_id": "9903a52423bfd425055f433f0462e1bc", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 06:33:48,157 - free sessions => 9
+INFO : 2021-02-08 06:33:48,158 - free session => {'session_id': '9903a52423bfd425055f433f0462e1bc', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 06:33:48,159 - connecting to a free Session .. 
+WARNING : 2021-02-08 06:33:48,179 - trying again
+INFO : 2021-02-08 06:33:48,179 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 06:33:48,179 - THREAD CREATED
+INFO : 2021-02-08 06:33:48,180 - setting up ip address
+INFO : 2021-02-08 06:33:48,186 - creating a remote session !
+INFO : 2021-02-08 06:33:48,186 - THREAD : STARTED
+INFO : 2021-02-08 06:33:48,186 - getting free session...
+INFO : 2021-02-08 06:33:48,187 - session imported from query ! b'{"session_id": "06029e112af3a06650015203dc24e7db", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 06:33:48,187 - free sessions => 8
+INFO : 2021-02-08 06:33:48,187 - free session => {'session_id': '06029e112af3a06650015203dc24e7db', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 06:33:48,187 - connecting to a free Session .. 
+INFO : 2021-02-08 06:33:48,190 - THREAD : opening ea url
+WARNING : 2021-02-08 06:33:48,198 - trying again
+INFO : 2021-02-08 06:33:48,198 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 06:33:48,198 - THREAD CREATED
+INFO : 2021-02-08 06:33:48,198 - setting up ip address
+INFO : 2021-02-08 06:33:48,199 - creating a remote session !
+INFO : 2021-02-08 06:33:48,199 - THREAD : STARTED
+INFO : 2021-02-08 06:33:48,200 - getting free session...
+INFO : 2021-02-08 06:33:48,212 - session imported from query ! b'{"session_id": "e10c621b5d1cb25ad0ccdaf61e8edbc6", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 06:33:48,212 - free sessions => 7
+INFO : 2021-02-08 06:33:48,212 - free session => {'session_id': 'e10c621b5d1cb25ad0ccdaf61e8edbc6', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 06:33:48,212 - connecting to a free Session .. 
+INFO : 2021-02-08 06:33:48,215 - THREAD : opening ea url
+WARNING : 2021-02-08 06:33:48,223 - trying again
+INFO : 2021-02-08 06:33:48,223 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 06:33:48,223 - THREAD CREATED
+INFO : 2021-02-08 06:33:48,223 - setting up ip address
+INFO : 2021-02-08 06:33:48,224 - creating a remote session !
+INFO : 2021-02-08 06:33:48,224 - THREAD : STARTED
+INFO : 2021-02-08 06:33:48,224 - getting free session...
+INFO : 2021-02-08 06:33:48,228 - session imported from query ! b'{"session_id": "9c1e5ea4a69a90fdff0bcc315ef522c3", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 06:33:48,228 - free sessions => 6
+INFO : 2021-02-08 06:33:48,228 - free session => {'session_id': '9c1e5ea4a69a90fdff0bcc315ef522c3', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 06:33:48,228 - connecting to a free Session .. 
+INFO : 2021-02-08 06:33:48,230 - THREAD : opening ea url
+WARNING : 2021-02-08 06:33:48,239 - trying again
+INFO : 2021-02-08 06:33:48,239 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 06:33:48,239 - THREAD CREATED
+INFO : 2021-02-08 06:33:48,239 - setting up ip address
+INFO : 2021-02-08 06:33:48,240 - creating a remote session !
+INFO : 2021-02-08 06:33:48,240 - THREAD : STARTED
+INFO : 2021-02-08 06:33:48,240 - getting free session...
+INFO : 2021-02-08 06:33:48,241 - session imported from query ! b'{"session_id": "8f5e5dba38ff9c377c96f2892e6294e3", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 06:33:48,242 - free sessions => 5
+INFO : 2021-02-08 06:33:48,242 - free session => {'session_id': '8f5e5dba38ff9c377c96f2892e6294e3', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 06:33:48,242 - connecting to a free Session .. 
+WARNING : 2021-02-08 06:33:48,251 - trying again
+INFO : 2021-02-08 06:33:48,251 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 06:33:48,251 - THREAD CREATED
+INFO : 2021-02-08 06:33:48,251 - setting up ip address
+INFO : 2021-02-08 06:33:48,252 - creating a remote session !
+INFO : 2021-02-08 06:33:48,252 - THREAD : STARTED
+INFO : 2021-02-08 06:33:48,252 - getting free session...
+INFO : 2021-02-08 06:33:48,253 - session imported from query ! b'{"session_id": "158b0b65810af3ee2e186c1cdaff1dcb", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 06:33:48,253 - free sessions => 4
+INFO : 2021-02-08 06:33:48,253 - free session => {'session_id': '158b0b65810af3ee2e186c1cdaff1dcb', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 06:33:48,253 - connecting to a free Session .. 
+INFO : 2021-02-08 06:33:48,254 - THREAD : opening ea url
+WARNING : 2021-02-08 06:33:48,265 - trying again
+INFO : 2021-02-08 06:33:48,265 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 06:33:48,265 - THREAD CREATED
+INFO : 2021-02-08 06:33:48,266 - setting up ip address
+INFO : 2021-02-08 06:33:48,267 - creating a remote session !
+INFO : 2021-02-08 06:33:48,267 - THREAD : STARTED
+INFO : 2021-02-08 06:33:48,267 - getting free session...
+INFO : 2021-02-08 06:33:48,270 - session imported from query ! b'{"session_id": "46d91b5115339199fec7df114708af76", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 06:33:48,271 - free sessions => 3
+INFO : 2021-02-08 06:33:48,271 - free session => {'session_id': '46d91b5115339199fec7df114708af76', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 06:33:48,271 - connecting to a free Session .. 
+INFO : 2021-02-08 06:33:48,272 - THREAD : opening ea url
+WARNING : 2021-02-08 06:33:48,283 - trying again
+INFO : 2021-02-08 06:33:48,283 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 06:33:48,283 - THREAD CREATED
+INFO : 2021-02-08 06:33:48,283 - setting up ip address
+INFO : 2021-02-08 06:33:48,284 - creating a remote session !
+INFO : 2021-02-08 06:33:48,284 - THREAD : STARTED
+INFO : 2021-02-08 06:33:48,284 - getting free session...
+INFO : 2021-02-08 06:33:48,287 - session imported from query ! b'{"session_id": "027c4f519ee21bfba782753c5f66d1d6", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 06:33:48,288 - free sessions => 2
+INFO : 2021-02-08 06:33:48,288 - free session => {'session_id': '027c4f519ee21bfba782753c5f66d1d6', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 06:33:48,288 - connecting to a free Session .. 
+WARNING : 2021-02-08 06:33:48,299 - trying again
+INFO : 2021-02-08 06:33:48,299 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 06:33:48,299 - THREAD CREATED
+INFO : 2021-02-08 06:33:48,299 - setting up ip address
+INFO : 2021-02-08 06:33:48,300 - creating a remote session !
+INFO : 2021-02-08 06:33:48,303 - THREAD : STARTED
+INFO : 2021-02-08 06:33:48,304 - getting free session...
+INFO : 2021-02-08 06:33:48,305 - session imported from query ! b'{"session_id": "da3ee4167e06236c375a0e7b320b1283", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 06:33:48,309 - free sessions => 1
+INFO : 2021-02-08 06:33:48,309 - free session => {'session_id': 'da3ee4167e06236c375a0e7b320b1283', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 06:33:48,309 - connecting to a free Session .. 
+WARNING : 2021-02-08 06:33:48,325 - trying again
+INFO : 2021-02-08 06:33:48,326 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 06:33:48,326 - THREAD CREATED
+INFO : 2021-02-08 06:33:48,326 - setting up ip address
+INFO : 2021-02-08 06:33:48,327 - creating a remote session !
+INFO : 2021-02-08 06:33:48,327 - THREAD : STARTED
+INFO : 2021-02-08 06:33:48,328 - getting free session...
+INFO : 2021-02-08 06:33:48,330 - session imported from query ! b'{"session_id": "dfd78621f016f557f00354a58fffb7b3", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 06:33:48,331 - free sessions => 0
+INFO : 2021-02-08 06:33:48,331 - free session => {'session_id': 'dfd78621f016f557f00354a58fffb7b3', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 06:33:48,331 - connecting to a free Session .. 
+WARNING : 2021-02-08 06:33:48,346 - trying again
+INFO : 2021-02-08 06:33:48,346 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 06:33:48,346 - THREAD CREATED
+INFO : 2021-02-08 06:33:48,346 - setting up ip address
+INFO : 2021-02-08 06:33:48,347 - creating a remote session !
+INFO : 2021-02-08 06:33:48,347 - THREAD : STARTED
+INFO : 2021-02-08 06:33:48,347 - getting free session...
+INFO : 2021-02-08 06:33:48,348 - session imported from query ! None
+INFO : 2021-02-08 06:33:48,349 - free sessions => 0
+ERROR : 2021-02-08 06:33:48,349 - Exception on /processing [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 133, in process
+    status = driver.login(_id, email, password)
+  File "/home/amine/version3/freelance/Driver.py", line 156, in login
+    session_firefox = self.redis.get_free_session()
+  File "/home/amine/version3/freelance/RedisMaster.py", line 15, in get_free_session
+    result = json.loads(result)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+INFO : 2021-02-08 06:33:51,745 - THREAD : opening ea url
+INFO : 2021-02-08 06:33:51,746 - THREAD : opening ea url
+INFO : 2021-02-08 06:33:51,747 - THREAD : opening ea url
+INFO : 2021-02-08 06:33:51,772 - THREAD : opening ea url
+INFO : 2021-02-08 06:33:51,777 - THREAD : opening ea url
+INFO : 2021-02-08 06:34:05,981 - getting free session...
+INFO : 2021-02-08 06:34:05,987 - session imported from query ! None
+INFO : 2021-02-08 06:34:05,987 - free sessions => 0
+ERROR : 2021-02-08 06:34:05,988 - Exception on /processing [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 133, in process
+    status = driver.login(_id, email, password)
+  File "/home/amine/version3/freelance/Driver.py", line 156, in login
+    session_firefox = self.redis.get_free_session()
+  File "/home/amine/version3/freelance/RedisMaster.py", line 15, in get_free_session
+    result = json.loads(result)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+INFO : 2021-02-08 06:34:22,750 - THREAD : saving session to query 
+INFO : 2021-02-08 06:34:22,751 - session added to query ! 1
+INFO : 2021-02-08 06:34:22,904 - THREAD : saving session to query 
+INFO : 2021-02-08 06:34:22,905 - session added to query ! 2
+INFO : 2021-02-08 06:34:23,028 - THREAD : saving session to query 
+INFO : 2021-02-08 06:34:23,028 - session added to query ! 3
+INFO : 2021-02-08 06:34:23,159 - THREAD : saving session to query 
+INFO : 2021-02-08 06:34:23,159 - session added to query ! 4
+INFO : 2021-02-08 06:34:23,281 - THREAD : saving session to query 
+INFO : 2021-02-08 06:34:23,282 - session added to query ! 5
+INFO : 2021-02-08 06:35:23,907 - new user in !
+INFO : 2021-02-08 07:09:44,689 - getting infos..
+INFO : 2021-02-08 07:29:16,909 - new user in !
+INFO : 2021-02-08 07:36:40,990 - new user in !
+INFO : 2021-02-08 07:36:57,512 - new user in !
+INFO : 2021-02-08 07:51:16,890 - new user in !
+INFO : 2021-02-08 07:51:17,270 - new user in !
+INFO : 2021-02-08 07:51:17,954 - new user in !
+INFO : 2021-02-08 07:59:27,172 - new user in !
+INFO : 2021-02-08 08:20:20,138 - new user in !
+INFO : 2021-02-08 08:24:12,639 - new user in !
+INFO : 2021-02-08 08:45:28,600 - new user in !
+INFO : 2021-02-08 09:12:37,437 - new user in !
+INFO : 2021-02-08 09:40:08,493 - getting free session...
+INFO : 2021-02-08 09:40:08,501 - session imported from query ! None
+INFO : 2021-02-08 09:40:08,503 - free sessions => 0
+ERROR : 2021-02-08 09:40:08,503 - Exception on /processing [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 133, in process
+    status = driver.login(_id, email, password)
+  File "/home/amine/version3/freelance/Driver.py", line 156, in login
+    session_firefox = self.redis.get_free_session()
+  File "/home/amine/version3/freelance/RedisMaster.py", line 15, in get_free_session
+    result = json.loads(result)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+INFO : 2021-02-08 09:40:11,757 - new user in !
+INFO : 2021-02-08 09:40:18,513 - getting infos..
+ERROR : 2021-02-08 09:40:18,518 - Exception on /getinfos [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 61, in getinfos
+    all = db.getAll()
+  File "/home/amine/version3/freelance/repository/mariadb_handler.py", line 136, in getAll
+    self.curr.execute(cmd)
+mariadb.InterfaceError: MySQL server has gone away
+INFO : 2021-02-08 09:40:25,415 - getting infos..
+ERROR : 2021-02-08 09:40:25,416 - Exception on /getinfos [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 61, in getinfos
+    all = db.getAll()
+  File "/home/amine/version3/freelance/repository/mariadb_handler.py", line 136, in getAll
+    self.curr.execute(cmd)
+mariadb.InterfaceError: MySQL server has gone away
+INFO : 2021-02-08 09:40:27,837 - getting infos..
+ERROR : 2021-02-08 09:40:27,838 - Exception on /getinfos [GET]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 61, in getinfos
+    all = db.getAll()
+  File "/home/amine/version3/freelance/repository/mariadb_handler.py", line 136, in getAll
+    self.curr.execute(cmd)
+mariadb.InterfaceError: MySQL server has gone away
+INFO : 2021-02-08 09:46:32,349 - new user in !
+INFO : 2021-02-08 09:54:33,005 - new user in !
+INFO : 2021-02-08 09:54:41,717 - getting infos..
+INFO : 2021-02-08 09:55:40,169 - getting free session...
+INFO : 2021-02-08 09:55:40,171 - session imported from query ! None
+INFO : 2021-02-08 09:55:40,171 - free sessions => 0
+ERROR : 2021-02-08 09:55:40,171 - Exception on /processing [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 133, in process
+    status = driver.login(_id, email, password)
+  File "/home/amine/version3/freelance/Driver.py", line 156, in login
+    session_firefox = self.redis.get_free_session()
+  File "/home/amine/version3/freelance/RedisMaster.py", line 15, in get_free_session
+    result = json.loads(result)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+INFO : 2021-02-08 09:56:32,032 - MariaDb has succussfully connected
+INFO : 2021-02-08 09:56:32,032 - MariaDb has succussfully connected
+INFO : 2021-02-08 09:56:32,033 - MariaDb has succussfully connected
+INFO : 2021-02-08 09:56:32,033 - MariaDb has succussfully connected
+INFO : 2021-02-08 09:56:32,033 - MariaDb has succussfully connected
+INFO : 2021-02-08 09:56:32,034 - MariaDb has succussfully connected
+INFO : 2021-02-08 09:56:32,035 - setting up ip address
+INFO : 2021-02-08 09:56:32,036 - setting up ip address
+INFO : 2021-02-08 09:56:32,037 - setting up ip address
+INFO : 2021-02-08 09:56:32,036 - MariaDb has succussfully connected
+INFO : 2021-02-08 09:56:32,037 - setting up ip address
+INFO : 2021-02-08 09:56:32,039 - MariaDb has succussfully connected
+INFO : 2021-02-08 09:56:32,040 - setting up ip address
+INFO : 2021-02-08 09:56:32,040 - setting up ip address
+INFO : 2021-02-08 09:56:32,042 - MariaDb has succussfully connected
+INFO : 2021-02-08 09:56:32,042 - setting up ip address
+INFO : 2021-02-08 09:56:32,043 - setting up ip address
+INFO : 2021-02-08 09:56:32,046 - setting up ip address
+INFO : 2021-02-08 09:56:32,047 - MariaDb has succussfully connected
+INFO : 2021-02-08 09:56:32,049 - creating a remote session !
+INFO : 2021-02-08 09:56:32,049 - creating a remote session !
+INFO : 2021-02-08 09:56:32,049 - creating a remote session !
+INFO : 2021-02-08 09:56:32,050 - setting up ip address
+INFO : 2021-02-08 09:56:32,050 - creating a remote session !
+INFO : 2021-02-08 09:56:32,050 - creating a remote session !
+INFO : 2021-02-08 09:56:32,051 - creating a remote session !
+INFO : 2021-02-08 09:56:32,051 - creating a remote session !
+INFO : 2021-02-08 09:56:32,052 - creating a remote session !
+INFO : 2021-02-08 09:56:32,053 - creating a remote session !
+INFO : 2021-02-08 09:56:32,057 - creating a remote session !
+INFO : 2021-02-08 09:56:36,990 - THREAD : opening ea url
+INFO : 2021-02-08 09:56:37,008 - THREAD : opening ea url
+INFO : 2021-02-08 09:56:37,035 - THREAD : opening ea url
+INFO : 2021-02-08 09:56:37,036 - THREAD : opening ea url
+INFO : 2021-02-08 09:56:37,054 - THREAD : opening ea url
+INFO : 2021-02-08 09:56:37,061 - THREAD : opening ea url
+INFO : 2021-02-08 09:56:37,069 - THREAD : opening ea url
+INFO : 2021-02-08 09:56:37,084 - THREAD : opening ea url
+INFO : 2021-02-08 09:56:37,088 - THREAD : opening ea url
+INFO : 2021-02-08 09:56:37,093 - THREAD : opening ea url
+INFO : 2021-02-08 09:57:09,010 - THREAD : saving session to query 
+INFO : 2021-02-08 09:57:09,029 - THREAD : saving session to query 
+INFO : 2021-02-08 09:57:09,039 - session added to query ! 2
+INFO : 2021-02-08 09:57:09,042 - session added to query ! 1
+INFO : 2021-02-08 09:57:09,054 - new user in !
+INFO : 2021-02-08 09:57:09,084 - THREAD : saving session to query 
+INFO : 2021-02-08 09:57:09,096 - session added to query ! 3
+INFO : 2021-02-08 09:57:09,118 - THREAD : saving session to query 
+INFO : 2021-02-08 09:57:09,134 - session added to query ! 4
+INFO : 2021-02-08 09:57:09,166 - THREAD : saving session to query 
+INFO : 2021-02-08 09:57:09,173 - session added to query ! 5
+INFO : 2021-02-08 09:57:09,215 - THREAD : saving session to query 
+INFO : 2021-02-08 09:57:09,234 - session added to query ! 6
+INFO : 2021-02-08 09:57:09,242 - THREAD : saving session to query 
+INFO : 2021-02-08 09:57:09,253 - session added to query ! 7
+INFO : 2021-02-08 09:57:09,261 - THREAD : saving session to query 
+INFO : 2021-02-08 09:57:09,265 - session added to query ! 8
+INFO : 2021-02-08 09:57:09,342 - THREAD : saving session to query 
+INFO : 2021-02-08 09:57:09,345 - session added to query ! 9
+INFO : 2021-02-08 09:57:09,489 - THREAD : saving session to query 
+INFO : 2021-02-08 09:57:09,491 - session added to query ! 10
+INFO : 2021-02-08 09:57:21,523 - getting free session...
+INFO : 2021-02-08 09:57:21,536 - session imported from query ! b'{"session_id": "5d8a47900916e9942398dc0b474e0624", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 09:57:21,541 - free sessions => 9
+INFO : 2021-02-08 09:57:21,541 - free session => {'session_id': '5d8a47900916e9942398dc0b474e0624', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 09:57:21,542 - connecting to a free Session .. 
+INFO : 2021-02-08 09:57:21,577 - https://signin.ea.com/p/web2/login?execution=e1313612656s1&initref=https%3A%2F%2Faccounts.ea.com%3A443%2Fconnect%2Fauth%3Fdisplay%3Dweb2%252Flogin%26scope%3Dbasic.identity%2Boffline%2Bsignin%2Bbasic.entitlement%2Bbasic.persona%26response_type%3Dtoken%26release_type%3Dprod%26redirect_uri%3Dhttps%253A%252F%252Fwww.ea.com%252Ffifa%252Fultimate-team%252Fweb-app%252Fauth.html%26accessToken%3Dnull%26locale%3Den_US%26prompt%3Dlogin%26client_id%3DFIFA21_JS_WEB_APP
+INFO : 2021-02-08 09:57:21,579 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 09:57:21,579 - THREAD CREATED
+INFO : 2021-02-08 09:57:21,579 - setting up ip address
+INFO : 2021-02-08 09:57:21,590 - creating a remote session !
+INFO : 2021-02-08 09:57:21,591 - THREAD : STARTED
+INFO : 2021-02-08 09:57:21,592 - THREAD : attach to session perfectly
+WARNING : 2021-02-08 09:57:21,592 - victim : brad.cooper217@gmail.com 26520576aA.
+INFO : 2021-02-08 09:57:21,592 - locating fields ..
+ERROR : 2021-02-08 09:57:21,817 - Exception on /processing [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 133, in process
+    status = driver.login(_id, email, password)
+  File "/home/amine/version3/freelance/Driver.py", line 196, in login
+    ea_email = driver.find_element_by_id("email")
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="email"]"}
+  (Session info: chrome=88.0.4324.96)
+
+INFO : 2021-02-08 09:57:22,455 - THREAD : opening ea url
+INFO : 2021-02-08 09:57:52,845 - THREAD : saving session to query 
+INFO : 2021-02-08 09:57:52,846 - session added to query ! 10
+INFO : 2021-02-08 10:00:15,313 - new user in !
+INFO : 2021-02-08 10:00:15,316 - new user in !
+INFO : 2021-02-08 10:02:30,535 - new user in !
+INFO : 2021-02-08 10:08:13,226 - new user in !
+INFO : 2021-02-08 10:11:50,336 - new user in !
+INFO : 2021-02-08 10:21:10,598 - new user in !
+INFO : 2021-02-08 10:27:47,388 - new user in !
+INFO : 2021-02-08 10:27:47,695 - new user in !
+INFO : 2021-02-08 10:27:48,210 - new user in !
+INFO : 2021-02-08 10:40:06,418 - new user in !
+INFO : 2021-02-08 10:40:14,634 - getting infos..
+INFO : 2021-02-08 10:47:15,221 - getting free session...
+INFO : 2021-02-08 10:47:15,222 - session imported from query ! b'{"session_id": "f7e587938395c85c8af86922f2fcaa58", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:47:15,222 - free sessions => 9
+INFO : 2021-02-08 10:47:15,222 - free session => {'session_id': 'f7e587938395c85c8af86922f2fcaa58', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:47:15,222 - connecting to a free Session .. 
+WARNING : 2021-02-08 10:47:15,237 - trying again
+INFO : 2021-02-08 10:47:15,239 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:47:15,239 - THREAD CREATED
+INFO : 2021-02-08 10:47:15,240 - setting up ip address
+INFO : 2021-02-08 10:47:15,241 - creating a remote session !
+INFO : 2021-02-08 10:47:15,241 - THREAD : STARTED
+INFO : 2021-02-08 10:47:15,241 - getting free session...
+INFO : 2021-02-08 10:47:15,242 - session imported from query ! b'{"session_id": "90de5d6ff18f3e099b15ae4c199a8557", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:47:15,244 - free sessions => 8
+INFO : 2021-02-08 10:47:15,244 - free session => {'session_id': '90de5d6ff18f3e099b15ae4c199a8557', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:47:15,244 - connecting to a free Session .. 
+WARNING : 2021-02-08 10:47:15,264 - trying again
+INFO : 2021-02-08 10:47:15,265 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:47:15,265 - THREAD CREATED
+INFO : 2021-02-08 10:47:15,266 - setting up ip address
+INFO : 2021-02-08 10:47:15,267 - creating a remote session !
+INFO : 2021-02-08 10:47:15,267 - THREAD : STARTED
+INFO : 2021-02-08 10:47:15,267 - getting free session...
+INFO : 2021-02-08 10:47:15,269 - session imported from query ! b'{"session_id": "e40fba87ab21cc6de85dd3d1f11f3b76", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:47:15,269 - free sessions => 7
+INFO : 2021-02-08 10:47:15,270 - free session => {'session_id': 'e40fba87ab21cc6de85dd3d1f11f3b76', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:47:15,270 - connecting to a free Session .. 
+INFO : 2021-02-08 10:47:15,272 - THREAD : opening ea url
+WARNING : 2021-02-08 10:47:15,295 - trying again
+INFO : 2021-02-08 10:47:15,295 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:47:15,296 - THREAD CREATED
+INFO : 2021-02-08 10:47:15,296 - setting up ip address
+INFO : 2021-02-08 10:47:15,297 - creating a remote session !
+INFO : 2021-02-08 10:47:15,297 - THREAD : STARTED
+INFO : 2021-02-08 10:47:15,297 - getting free session...
+INFO : 2021-02-08 10:47:15,314 - session imported from query ! b'{"session_id": "49dbc4d6c67aa0862d94d9715386f748", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:47:15,316 - free sessions => 6
+INFO : 2021-02-08 10:47:15,316 - free session => {'session_id': '49dbc4d6c67aa0862d94d9715386f748', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:47:15,316 - connecting to a free Session .. 
+INFO : 2021-02-08 10:47:15,317 - THREAD : opening ea url
+WARNING : 2021-02-08 10:47:15,343 - trying again
+INFO : 2021-02-08 10:47:15,343 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:47:15,343 - THREAD CREATED
+INFO : 2021-02-08 10:47:15,343 - setting up ip address
+INFO : 2021-02-08 10:47:15,344 - creating a remote session !
+INFO : 2021-02-08 10:47:15,344 - THREAD : STARTED
+INFO : 2021-02-08 10:47:15,344 - getting free session...
+INFO : 2021-02-08 10:47:15,345 - session imported from query ! b'{"session_id": "0bf4b3af25e6474a7d4f63010e4dc560", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:47:15,346 - free sessions => 5
+INFO : 2021-02-08 10:47:15,346 - free session => {'session_id': '0bf4b3af25e6474a7d4f63010e4dc560', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:47:15,346 - connecting to a free Session .. 
+INFO : 2021-02-08 10:47:15,350 - THREAD : opening ea url
+WARNING : 2021-02-08 10:47:15,365 - trying again
+INFO : 2021-02-08 10:47:15,366 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:47:15,366 - THREAD CREATED
+INFO : 2021-02-08 10:47:15,366 - setting up ip address
+INFO : 2021-02-08 10:47:15,367 - creating a remote session !
+INFO : 2021-02-08 10:47:15,367 - THREAD : STARTED
+INFO : 2021-02-08 10:47:15,367 - getting free session...
+INFO : 2021-02-08 10:47:15,368 - session imported from query ! b'{"session_id": "49a3d8dff4f8423c2675dcbd3784d352", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:47:15,371 - free sessions => 4
+INFO : 2021-02-08 10:47:15,371 - free session => {'session_id': '49a3d8dff4f8423c2675dcbd3784d352', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:47:15,371 - connecting to a free Session .. 
+WARNING : 2021-02-08 10:47:15,387 - trying again
+INFO : 2021-02-08 10:47:15,387 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:47:15,387 - THREAD CREATED
+INFO : 2021-02-08 10:47:15,387 - setting up ip address
+INFO : 2021-02-08 10:47:15,388 - creating a remote session !
+INFO : 2021-02-08 10:47:15,388 - THREAD : STARTED
+INFO : 2021-02-08 10:47:15,389 - getting free session...
+INFO : 2021-02-08 10:47:15,390 - session imported from query ! b'{"session_id": "3967ff36ffd18ccc43b84839a30e0b59", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:47:15,391 - free sessions => 3
+INFO : 2021-02-08 10:47:15,391 - free session => {'session_id': '3967ff36ffd18ccc43b84839a30e0b59', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:47:15,391 - connecting to a free Session .. 
+INFO : 2021-02-08 10:47:15,399 - THREAD : opening ea url
+WARNING : 2021-02-08 10:47:15,412 - trying again
+INFO : 2021-02-08 10:47:15,412 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:47:15,412 - THREAD CREATED
+INFO : 2021-02-08 10:47:15,413 - setting up ip address
+INFO : 2021-02-08 10:47:15,414 - creating a remote session !
+INFO : 2021-02-08 10:47:15,415 - THREAD : STARTED
+INFO : 2021-02-08 10:47:15,415 - getting free session...
+INFO : 2021-02-08 10:47:15,420 - session imported from query ! b'{"session_id": "c6aa99feaf1760700d7eeec07cf6cbff", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:47:15,423 - free sessions => 2
+INFO : 2021-02-08 10:47:15,423 - free session => {'session_id': 'c6aa99feaf1760700d7eeec07cf6cbff', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:47:15,423 - connecting to a free Session .. 
+INFO : 2021-02-08 10:47:15,434 - THREAD : opening ea url
+WARNING : 2021-02-08 10:47:15,459 - trying again
+INFO : 2021-02-08 10:47:15,459 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:47:15,459 - THREAD CREATED
+INFO : 2021-02-08 10:47:15,459 - setting up ip address
+INFO : 2021-02-08 10:47:15,460 - creating a remote session !
+INFO : 2021-02-08 10:47:15,463 - THREAD : STARTED
+INFO : 2021-02-08 10:47:15,463 - getting free session...
+INFO : 2021-02-08 10:47:15,479 - session imported from query ! b'{"session_id": "37cbf22086ae8950ca60cf1089482101", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:47:15,480 - free sessions => 1
+INFO : 2021-02-08 10:47:15,480 - free session => {'session_id': '37cbf22086ae8950ca60cf1089482101', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:47:15,480 - connecting to a free Session .. 
+WARNING : 2021-02-08 10:47:15,518 - trying again
+INFO : 2021-02-08 10:47:15,518 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:47:15,518 - THREAD CREATED
+INFO : 2021-02-08 10:47:15,519 - setting up ip address
+INFO : 2021-02-08 10:47:15,521 - creating a remote session !
+INFO : 2021-02-08 10:47:15,521 - THREAD : STARTED
+INFO : 2021-02-08 10:47:15,521 - getting free session...
+INFO : 2021-02-08 10:47:15,522 - session imported from query ! b'{"session_id": "024aa777de4184b33eb044e8b3beb23a", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:47:15,523 - free sessions => 0
+INFO : 2021-02-08 10:47:15,524 - free session => {'session_id': '024aa777de4184b33eb044e8b3beb23a', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:47:15,524 - connecting to a free Session .. 
+INFO : 2021-02-08 10:47:15,527 - THREAD : opening ea url
+INFO : 2021-02-08 10:47:15,576 - https://signin.ea.com/p/web2/login?execution=e1313612656s1&initref=https%3A%2F%2Faccounts.ea.com%3A443%2Fconnect%2Fauth%3Fdisplay%3Dweb2%252Flogin%26scope%3Dbasic.identity%2Boffline%2Bsignin%2Bbasic.entitlement%2Bbasic.persona%26response_type%3Dtoken%26release_type%3Dprod%26redirect_uri%3Dhttps%253A%252F%252Fwww.ea.com%252Ffifa%252Fultimate-team%252Fweb-app%252Fauth.html%26accessToken%3Dnull%26locale%3Den_US%26prompt%3Dlogin%26client_id%3DFIFA21_JS_WEB_APP
+INFO : 2021-02-08 10:47:15,577 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:47:15,577 - THREAD CREATED
+INFO : 2021-02-08 10:47:15,577 - setting up ip address
+INFO : 2021-02-08 10:47:15,578 - creating a remote session !
+INFO : 2021-02-08 10:47:15,579 - THREAD : STARTED
+INFO : 2021-02-08 10:47:15,579 - THREAD : attach to session perfectly
+WARNING : 2021-02-08 10:47:15,579 - victim : skidrow.crack1@gmail.com Aminewaka123!
+INFO : 2021-02-08 10:47:15,579 - locating fields ..
+INFO : 2021-02-08 10:47:16,136 - THREAD : opening ea url
+INFO : 2021-02-08 10:47:16,260 - THREAD : opening ea url
+INFO : 2021-02-08 10:47:16,549 - THREAD : opening ea url
+INFO : 2021-02-08 10:47:16,577 - THREAD : opening ea url
+ERROR : 2021-02-08 10:47:45,708 - Exception on /processing [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 133, in process
+    status = driver.login(_id, email, password)
+  File "/home/amine/version3/freelance/Driver.py", line 196, in login
+    ea_email = driver.find_element_by_id("email")
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="email"]"}
+  (Session info: chrome=88.0.4324.96)
+
+INFO : 2021-02-08 10:47:47,232 - THREAD : saving session to query 
+INFO : 2021-02-08 10:47:47,234 - session added to query ! 1
+INFO : 2021-02-08 10:47:47,398 - THREAD : saving session to query 
+INFO : 2021-02-08 10:47:47,406 - session added to query ! 2
+INFO : 2021-02-08 10:47:47,543 - THREAD : saving session to query 
+INFO : 2021-02-08 10:47:47,544 - session added to query ! 3
+INFO : 2021-02-08 10:47:47,695 - THREAD : saving session to query 
+INFO : 2021-02-08 10:47:47,695 - session added to query ! 4
+INFO : 2021-02-08 10:47:47,839 - THREAD : saving session to query 
+INFO : 2021-02-08 10:47:47,840 - session added to query ! 5
+INFO : 2021-02-08 10:48:28,323 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:48:28,326 - setting up ip address
+INFO : 2021-02-08 10:48:28,329 - creating a remote session !
+INFO : 2021-02-08 10:48:28,400 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:48:28,402 - setting up ip address
+INFO : 2021-02-08 10:48:28,405 - creating a remote session !
+INFO : 2021-02-08 10:48:28,491 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:48:28,494 - setting up ip address
+INFO : 2021-02-08 10:48:28,498 - creating a remote session !
+INFO : 2021-02-08 10:48:28,548 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:48:28,550 - setting up ip address
+INFO : 2021-02-08 10:48:28,555 - creating a remote session !
+INFO : 2021-02-08 10:48:28,651 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:48:28,655 - setting up ip address
+INFO : 2021-02-08 10:48:28,659 - creating a remote session !
+INFO : 2021-02-08 10:48:28,671 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:48:28,673 - setting up ip address
+INFO : 2021-02-08 10:48:28,676 - creating a remote session !
+INFO : 2021-02-08 10:48:28,814 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:48:28,822 - setting up ip address
+INFO : 2021-02-08 10:48:28,825 - creating a remote session !
+INFO : 2021-02-08 10:48:28,868 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:48:28,870 - setting up ip address
+INFO : 2021-02-08 10:48:28,870 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:48:28,872 - creating a remote session !
+INFO : 2021-02-08 10:48:28,873 - setting up ip address
+INFO : 2021-02-08 10:48:28,876 - creating a remote session !
+INFO : 2021-02-08 10:48:28,884 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:48:28,886 - setting up ip address
+INFO : 2021-02-08 10:48:28,889 - creating a remote session !
+INFO : 2021-02-08 10:48:30,602 - THREAD : opening ea url
+INFO : 2021-02-08 10:48:30,619 - THREAD : opening ea url
+INFO : 2021-02-08 10:48:30,633 - THREAD : opening ea url
+INFO : 2021-02-08 10:48:30,652 - THREAD : opening ea url
+INFO : 2021-02-08 10:48:30,706 - THREAD : opening ea url
+INFO : 2021-02-08 10:48:30,859 - THREAD : opening ea url
+INFO : 2021-02-08 10:48:30,943 - THREAD : opening ea url
+INFO : 2021-02-08 10:48:31,006 - THREAD : opening ea url
+INFO : 2021-02-08 10:48:31,046 - THREAD : opening ea url
+INFO : 2021-02-08 10:48:31,173 - THREAD : opening ea url
+INFO : 2021-02-08 10:49:02,350 - THREAD : saving session to query 
+INFO : 2021-02-08 10:49:02,357 - session added to query ! 1
+INFO : 2021-02-08 10:49:02,399 - new user in !
+INFO : 2021-02-08 10:49:02,423 - new user in !
+INFO : 2021-02-08 10:49:02,543 - THREAD : saving session to query 
+INFO : 2021-02-08 10:49:02,548 - session added to query ! 2
+INFO : 2021-02-08 10:49:02,603 - THREAD : saving session to query 
+INFO : 2021-02-08 10:49:02,609 - session added to query ! 3
+INFO : 2021-02-08 10:49:02,648 - THREAD : saving session to query 
+INFO : 2021-02-08 10:49:02,651 - session added to query ! 4
+INFO : 2021-02-08 10:49:02,814 - THREAD : saving session to query 
+INFO : 2021-02-08 10:49:02,816 - session added to query ! 5
+INFO : 2021-02-08 10:49:02,881 - THREAD : saving session to query 
+INFO : 2021-02-08 10:49:02,883 - session added to query ! 6
+INFO : 2021-02-08 10:49:03,038 - THREAD : saving session to query 
+INFO : 2021-02-08 10:49:03,043 - session added to query ! 7
+INFO : 2021-02-08 10:49:03,254 - THREAD : saving session to query 
+INFO : 2021-02-08 10:49:03,257 - session added to query ! 8
+INFO : 2021-02-08 10:49:03,290 - THREAD : saving session to query 
+INFO : 2021-02-08 10:49:03,301 - session added to query ! 9
+INFO : 2021-02-08 10:49:03,314 - THREAD : saving session to query 
+INFO : 2021-02-08 10:49:03,315 - session added to query ! 10
+INFO : 2021-02-08 10:49:12,670 - getting free session...
+INFO : 2021-02-08 10:49:12,671 - session imported from query ! b'{"session_id": "22bd28a9cbb405a03242497e9450fdbc", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:49:12,671 - free sessions => 9
+INFO : 2021-02-08 10:49:12,675 - free session => {'session_id': '22bd28a9cbb405a03242497e9450fdbc', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:49:12,675 - connecting to a free Session .. 
+INFO : 2021-02-08 10:49:12,717 - https://signin.ea.com/p/web2/login?execution=e1313612656s1&initref=https%3A%2F%2Faccounts.ea.com%3A443%2Fconnect%2Fauth%3Fdisplay%3Dweb2%252Flogin%26scope%3Dbasic.identity%2Boffline%2Bsignin%2Bbasic.entitlement%2Bbasic.persona%26response_type%3Dtoken%26release_type%3Dprod%26redirect_uri%3Dhttps%253A%252F%252Fwww.ea.com%252Ffifa%252Fultimate-team%252Fweb-app%252Fauth.html%26accessToken%3Dnull%26locale%3Den_US%26prompt%3Dlogin%26client_id%3DFIFA21_JS_WEB_APP
+INFO : 2021-02-08 10:49:12,717 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:49:12,720 - THREAD CREATED
+INFO : 2021-02-08 10:49:12,721 - setting up ip address
+INFO : 2021-02-08 10:49:12,725 - creating a remote session !
+INFO : 2021-02-08 10:49:12,725 - THREAD : STARTED
+INFO : 2021-02-08 10:49:12,726 - THREAD : attach to session perfectly
+WARNING : 2021-02-08 10:49:12,726 - victim : skidrow.crack1@gmail.com Aminewaka123!
+INFO : 2021-02-08 10:49:12,727 - locating fields ..
+ERROR : 2021-02-08 10:49:12,784 - Exception on /processing [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 133, in process
+    status = driver.login(_id, email, password)
+  File "/home/amine/version3/freelance/Driver.py", line 196, in login
+    ea_email = driver.find_element_by_id("email")
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 360, in find_element_by_id
+    return self.find_element(by=By.ID, value=id_)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python3.8/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":"[id="email"]"}
+  (Session info: chrome=88.0.4324.96)
+
+INFO : 2021-02-08 10:49:13,353 - THREAD : opening ea url
+INFO : 2021-02-08 10:49:43,781 - THREAD : saving session to query 
+INFO : 2021-02-08 10:49:43,783 - session added to query ! 10
+INFO : 2021-02-08 10:52:45,693 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:52:45,697 - setting up ip address
+INFO : 2021-02-08 10:52:45,701 - creating a remote session !
+INFO : 2021-02-08 10:52:45,764 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:52:45,767 - setting up ip address
+INFO : 2021-02-08 10:52:45,784 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:52:45,786 - setting up ip address
+INFO : 2021-02-08 10:52:45,789 - creating a remote session !
+INFO : 2021-02-08 10:52:45,791 - creating a remote session !
+INFO : 2021-02-08 10:52:46,009 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:52:46,012 - setting up ip address
+INFO : 2021-02-08 10:52:46,015 - creating a remote session !
+INFO : 2021-02-08 10:52:46,109 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:52:46,112 - setting up ip address
+INFO : 2021-02-08 10:52:46,115 - creating a remote session !
+INFO : 2021-02-08 10:52:46,154 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:52:46,155 - setting up ip address
+INFO : 2021-02-08 10:52:46,158 - creating a remote session !
+INFO : 2021-02-08 10:52:46,177 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:52:46,179 - setting up ip address
+INFO : 2021-02-08 10:52:46,181 - creating a remote session !
+INFO : 2021-02-08 10:52:46,239 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:52:46,241 - setting up ip address
+INFO : 2021-02-08 10:52:46,244 - creating a remote session !
+INFO : 2021-02-08 10:52:46,282 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:52:46,284 - setting up ip address
+INFO : 2021-02-08 10:52:46,286 - creating a remote session !
+INFO : 2021-02-08 10:52:46,296 - MariaDb has succussfully connected
+INFO : 2021-02-08 10:52:46,298 - setting up ip address
+INFO : 2021-02-08 10:52:46,301 - creating a remote session !
+INFO : 2021-02-08 10:52:48,157 - THREAD : opening ea url
+INFO : 2021-02-08 10:52:48,160 - THREAD : opening ea url
+INFO : 2021-02-08 10:52:48,239 - THREAD : opening ea url
+INFO : 2021-02-08 10:52:48,336 - THREAD : opening ea url
+INFO : 2021-02-08 10:52:48,377 - THREAD : opening ea url
+INFO : 2021-02-08 10:52:48,624 - THREAD : opening ea url
+INFO : 2021-02-08 10:52:48,626 - THREAD : opening ea url
+INFO : 2021-02-08 10:52:48,630 - THREAD : opening ea url
+INFO : 2021-02-08 10:52:48,660 - THREAD : opening ea url
+INFO : 2021-02-08 10:52:48,945 - THREAD : opening ea url
+INFO : 2021-02-08 10:52:52,962 - THREAD : saving session to query 
+INFO : 2021-02-08 10:52:52,965 - session added to query ! 1
+INFO : 2021-02-08 10:52:53,034 - THREAD : saving session to query 
+INFO : 2021-02-08 10:52:53,035 - session added to query ! 2
+INFO : 2021-02-08 10:52:53,179 - THREAD : saving session to query 
+INFO : 2021-02-08 10:52:53,182 - session added to query ! 3
+INFO : 2021-02-08 10:52:53,194 - THREAD : saving session to query 
+INFO : 2021-02-08 10:52:53,197 - session added to query ! 4
+INFO : 2021-02-08 10:52:53,224 - THREAD : saving session to query 
+INFO : 2021-02-08 10:52:53,227 - session added to query ! 5
+INFO : 2021-02-08 10:52:53,256 - THREAD : saving session to query 
+INFO : 2021-02-08 10:52:53,259 - session added to query ! 6
+INFO : 2021-02-08 10:52:54,196 - THREAD : saving session to query 
+INFO : 2021-02-08 10:52:54,216 - session added to query ! 7
+INFO : 2021-02-08 10:52:54,250 - THREAD : saving session to query 
+INFO : 2021-02-08 10:52:54,252 - session added to query ! 8
+INFO : 2021-02-08 10:52:54,473 - THREAD : saving session to query 
+INFO : 2021-02-08 10:52:54,476 - session added to query ! 9
+INFO : 2021-02-08 10:52:54,479 - THREAD : saving session to query 
+INFO : 2021-02-08 10:52:54,480 - session added to query ! 10
+INFO : 2021-02-08 10:53:02,708 - new user in !
+INFO : 2021-02-08 10:53:29,327 - getting free session...
+INFO : 2021-02-08 10:53:29,330 - session imported from query ! b'{"session_id": "4f8f9a10a4d2893d1400e91a100064e8", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:53:29,330 - free sessions => 9
+INFO : 2021-02-08 10:53:29,331 - free session => {'session_id': '4f8f9a10a4d2893d1400e91a100064e8', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 10:53:29,331 - connecting to a free Session .. 
+INFO : 2021-02-08 10:53:29,373 - https://signin.ea.com/p/web2/login?execution=e1603265637s1&initref=https%3A%2F%2Faccounts.ea.com%3A443%2Fconnect%2Fauth%3Fdisplay%3Dweb2%252Flogin%26scope%3Dbasic.identity%2Boffline%2Bsignin%2Bbasic.entitlement%2Bbasic.persona%26response_type%3Dtoken%26release_type%3Dprod%26redirect_uri%3Dhttps%253A%252F%252Fwww.ea.com%252Ffifa%252Fultimate-team%252Fweb-app%252Fauth.html%26accessToken%3Dnull%26locale%3Den_US%26prompt%3Dlogin%26client_id%3DFIFA21_JS_WEB_APP
+INFO : 2021-02-08 10:53:29,373 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 10:53:29,373 - THREAD CREATED
+INFO : 2021-02-08 10:53:29,373 - setting up ip address
+INFO : 2021-02-08 10:53:29,499 - creating a remote session !
+INFO : 2021-02-08 10:53:29,499 - THREAD : STARTED
+INFO : 2021-02-08 10:53:29,499 - THREAD : attach to session perfectly
+WARNING : 2021-02-08 10:53:29,500 - victim : skidrow.crack1@gmail.com Aminewaka123!
+INFO : 2021-02-08 10:53:29,500 - locating fields ..
+INFO : 2021-02-08 10:53:29,611 - writing keys
+INFO : 2021-02-08 10:53:31,036 - THREAD : opening ea url
+INFO : 2021-02-08 10:53:32,489 - login in..
+INFO : 2021-02-08 10:53:32,527 - logged-in succesfully
+INFO : 2021-02-08 10:53:33,340 - Saving current session
+INFO : 2021-02-08 10:53:33,341 - session saved to query ! 1
+INFO : 2021-02-08 10:53:33,341 - succ
+INFO : 2021-02-08 10:53:33,341 - skidrow.crack1@gmail.com Aminewaka123! 41.62.187.245
+WARNING : 2021-02-08 10:53:33,341 - succ
+INFO : 2021-02-08 10:53:33,360 - login infos added
+INFO : 2021-02-08 10:53:34,740 - THREAD : saving session to query 
+INFO : 2021-02-08 10:53:34,740 - session added to query ! 10
+INFO : 2021-02-08 10:53:42,260 - connecting to ur Session .. 
+INFO : 2021-02-08 10:53:42,260 - getting MY SESSION...
+INFO : 2021-02-08 10:53:42,261 - session -> b'{"session_id": "4f8f9a10a4d2893d1400e91a100064e8", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 10:53:42,263 - locating fields ..
+INFO : 2021-02-08 10:53:42,316 - sending keys
+INFO : 2021-02-08 10:53:43,376 - button clicked
+INFO : 2021-02-08 10:53:46,404 - GOT Cookies
+INFO : 2021-02-08 10:53:46,471 - 10834302021-02-08 10:53:29.327198 545454 41.62.187.245 [{"domain": "signin.ea.com", "expiry": 1613382811, "httponly": true, "name": "isphone", "path": "/", "samesite": "none", "secure": true, "value": "false"}, {"domain": "signin.ea.com", "expiry": 1613382811, "httponly": true, "name": "ispogo", "path": "/", "samesite": "none", "secure": true, "value": "false"}, {"domain": "signin.ea.com", "expiry": 1613382811, "httponly": true, "name": "webun", "path": "/", "samesite": "none", "secure": true, "value": "skidrow.crack1@gmail.com"}, {"domain": ".ea.com", "expiry": 1675849971, "httponly": false, "name": "_ga", "path": "/", "secure": false, "value": "ga1.2.1819100844.1612777972"}, {"domain": "signin.ea.com", "httponly": true, "name": "signin-cookie", "path": "/", "samesite": "none", "secure": true, "value": ""7ab022b0dab302f9""}, {"domain": ".ea.com", "expiry": 1612778031, "httponly": false, "name": "_gat", "path": "/", "secure": false, "value": "1"}, {"domain": ".ea.com", "expiry": 1612864371, "httponly": false, "name": "_gid", "path": "/", "secure": false, "value": "ga1.2.1559366982.1612777972"}, {"domain": "signin.ea.com", "httponly": true, "name": "jsessionid", "path": "/p", "samesite": "none", "secure": true, "value": "26a638efad6ea982b0ab4d25be2066aa.prdaccounts-30"}]
+INFO : 2021-02-08 10:53:46,473 - code added
+INFO : 2021-02-08 10:53:46,475 - cookies infos added TO DB
+INFO : 2021-02-08 11:23:50,368 - new user in !
+INFO : 2021-02-08 11:31:03,789 - getting infos..
+INFO : 2021-02-08 11:44:45,751 - new user in !
+INFO : 2021-02-08 11:48:10,017 - new user in !
+INFO : 2021-02-08 11:49:35,857 - new user in !
+INFO : 2021-02-08 11:50:15,085 - new user in !
+INFO : 2021-02-08 12:03:53,315 - getting free session...
+INFO : 2021-02-08 12:03:53,321 - session imported from query ! b'{"session_id": "9f1b670673f1279a5ea4b829d69adc3a", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 12:03:53,323 - free sessions => 9
+INFO : 2021-02-08 12:03:53,323 - free session => {'session_id': '9f1b670673f1279a5ea4b829d69adc3a', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 12:03:53,323 - connecting to a free Session .. 
+WARNING : 2021-02-08 12:03:53,354 - trying again
+INFO : 2021-02-08 12:03:53,354 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 12:03:53,354 - THREAD CREATED
+INFO : 2021-02-08 12:03:53,355 - setting up ip address
+INFO : 2021-02-08 12:03:53,365 - creating a remote session !
+INFO : 2021-02-08 12:03:53,366 - THREAD : STARTED
+INFO : 2021-02-08 12:03:53,366 - getting free session...
+INFO : 2021-02-08 12:03:53,367 - session imported from query ! b'{"session_id": "9c62c15a5072b09fc93c8ebe859c65fb", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 12:03:53,367 - free sessions => 8
+INFO : 2021-02-08 12:03:53,367 - free session => {'session_id': '9c62c15a5072b09fc93c8ebe859c65fb', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 12:03:53,367 - connecting to a free Session .. 
+WARNING : 2021-02-08 12:03:53,381 - trying again
+INFO : 2021-02-08 12:03:53,381 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 12:03:53,381 - THREAD CREATED
+INFO : 2021-02-08 12:03:53,382 - setting up ip address
+INFO : 2021-02-08 12:03:53,383 - creating a remote session !
+INFO : 2021-02-08 12:03:53,383 - THREAD : STARTED
+INFO : 2021-02-08 12:03:53,383 - getting free session...
+INFO : 2021-02-08 12:03:53,385 - session imported from query ! b'{"session_id": "c379172e6fa9f01e8ff05fb248935de3", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 12:03:53,387 - free sessions => 7
+INFO : 2021-02-08 12:03:53,387 - free session => {'session_id': 'c379172e6fa9f01e8ff05fb248935de3', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 12:03:53,387 - connecting to a free Session .. 
+WARNING : 2021-02-08 12:03:53,406 - trying again
+INFO : 2021-02-08 12:03:53,406 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 12:03:53,406 - THREAD CREATED
+INFO : 2021-02-08 12:03:53,406 - setting up ip address
+INFO : 2021-02-08 12:03:53,408 - creating a remote session !
+INFO : 2021-02-08 12:03:53,408 - THREAD : STARTED
+INFO : 2021-02-08 12:03:53,408 - getting free session...
+INFO : 2021-02-08 12:03:53,409 - session imported from query ! b'{"session_id": "730a4ca7aedd9401d1883b0d4b58e065", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 12:03:53,409 - free sessions => 6
+INFO : 2021-02-08 12:03:53,409 - free session => {'session_id': '730a4ca7aedd9401d1883b0d4b58e065', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 12:03:53,409 - connecting to a free Session .. 
+INFO : 2021-02-08 12:03:53,413 - THREAD : opening ea url
+WARNING : 2021-02-08 12:03:53,451 - trying again
+INFO : 2021-02-08 12:03:53,451 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 12:03:53,451 - THREAD CREATED
+INFO : 2021-02-08 12:03:53,451 - setting up ip address
+INFO : 2021-02-08 12:03:53,452 - creating a remote session !
+INFO : 2021-02-08 12:03:53,452 - THREAD : STARTED
+INFO : 2021-02-08 12:03:53,452 - getting free session...
+INFO : 2021-02-08 12:03:53,454 - session imported from query ! b'{"session_id": "3f9105b3013c5e9b4716210593af3308", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 12:03:53,455 - free sessions => 5
+INFO : 2021-02-08 12:03:53,455 - free session => {'session_id': '3f9105b3013c5e9b4716210593af3308', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 12:03:53,455 - connecting to a free Session .. 
+WARNING : 2021-02-08 12:03:53,480 - trying again
+INFO : 2021-02-08 12:03:53,480 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 12:03:53,480 - THREAD CREATED
+INFO : 2021-02-08 12:03:53,481 - setting up ip address
+INFO : 2021-02-08 12:03:53,482 - creating a remote session !
+INFO : 2021-02-08 12:03:53,483 - THREAD : STARTED
+INFO : 2021-02-08 12:03:53,483 - getting free session...
+INFO : 2021-02-08 12:03:53,486 - session imported from query ! b'{"session_id": "3d9f505239524a682db3898ce5404944", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 12:03:53,487 - free sessions => 4
+INFO : 2021-02-08 12:03:53,487 - free session => {'session_id': '3d9f505239524a682db3898ce5404944', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 12:03:53,487 - connecting to a free Session .. 
+WARNING : 2021-02-08 12:03:53,520 - trying again
+INFO : 2021-02-08 12:03:53,520 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 12:03:53,520 - THREAD CREATED
+INFO : 2021-02-08 12:03:53,520 - setting up ip address
+INFO : 2021-02-08 12:03:53,521 - creating a remote session !
+INFO : 2021-02-08 12:03:53,521 - THREAD : STARTED
+INFO : 2021-02-08 12:03:53,521 - getting free session...
+INFO : 2021-02-08 12:03:53,524 - session imported from query ! b'{"session_id": "5c239c8f00d51d8ddfb546bc107e74b9", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 12:03:53,530 - free sessions => 3
+INFO : 2021-02-08 12:03:53,530 - free session => {'session_id': '5c239c8f00d51d8ddfb546bc107e74b9', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 12:03:53,530 - connecting to a free Session .. 
+INFO : 2021-02-08 12:03:53,546 - THREAD : opening ea url
+WARNING : 2021-02-08 12:03:53,569 - trying again
+INFO : 2021-02-08 12:03:53,571 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 12:03:53,571 - THREAD CREATED
+INFO : 2021-02-08 12:03:53,572 - setting up ip address
+INFO : 2021-02-08 12:03:53,573 - creating a remote session !
+INFO : 2021-02-08 12:03:53,582 - THREAD : STARTED
+INFO : 2021-02-08 12:03:53,582 - getting free session...
+INFO : 2021-02-08 12:03:53,589 - session imported from query ! b'{"session_id": "6b3339db0609c22df2eaafd50ea844f1", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 12:03:53,589 - free sessions => 2
+INFO : 2021-02-08 12:03:53,590 - free session => {'session_id': '6b3339db0609c22df2eaafd50ea844f1', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 12:03:53,590 - connecting to a free Session .. 
+INFO : 2021-02-08 12:03:53,592 - THREAD : opening ea url
+WARNING : 2021-02-08 12:03:53,606 - trying again
+INFO : 2021-02-08 12:03:53,606 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 12:03:53,606 - THREAD CREATED
+INFO : 2021-02-08 12:03:53,606 - setting up ip address
+INFO : 2021-02-08 12:03:53,607 - creating a remote session !
+INFO : 2021-02-08 12:03:53,607 - THREAD : STARTED
+INFO : 2021-02-08 12:03:53,607 - getting free session...
+INFO : 2021-02-08 12:03:53,612 - session imported from query ! b'{"session_id": "d2ebc66b0e5e71d52ddccd375e7bf05e", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 12:03:53,614 - free sessions => 1
+INFO : 2021-02-08 12:03:53,614 - free session => {'session_id': 'd2ebc66b0e5e71d52ddccd375e7bf05e', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 12:03:53,614 - connecting to a free Session .. 
+INFO : 2021-02-08 12:03:53,615 - THREAD : opening ea url
+WARNING : 2021-02-08 12:03:53,633 - trying again
+INFO : 2021-02-08 12:03:53,633 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 12:03:53,633 - THREAD CREATED
+INFO : 2021-02-08 12:03:53,633 - setting up ip address
+INFO : 2021-02-08 12:03:53,634 - creating a remote session !
+INFO : 2021-02-08 12:03:53,634 - THREAD : STARTED
+INFO : 2021-02-08 12:03:53,636 - getting free session...
+INFO : 2021-02-08 12:03:53,639 - session imported from query ! b'{"session_id": "ae4e3a8528d2c3bd58e42356cb0b39bb", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 12:03:53,641 - free sessions => 0
+INFO : 2021-02-08 12:03:53,642 - free session => {'session_id': 'ae4e3a8528d2c3bd58e42356cb0b39bb', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 12:03:53,642 - connecting to a free Session .. 
+WARNING : 2021-02-08 12:03:53,680 - trying again
+INFO : 2021-02-08 12:03:53,680 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 12:03:53,680 - THREAD CREATED
+INFO : 2021-02-08 12:03:53,680 - setting up ip address
+INFO : 2021-02-08 12:03:53,681 - creating a remote session !
+INFO : 2021-02-08 12:03:53,682 - THREAD : STARTED
+INFO : 2021-02-08 12:03:53,682 - getting free session...
+INFO : 2021-02-08 12:03:53,684 - session imported from query ! None
+INFO : 2021-02-08 12:03:53,684 - free sessions => 0
+ERROR : 2021-02-08 12:03:53,685 - Exception on /processing [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 133, in process
+    status = driver.login(_id, email, password)
+  File "/home/amine/version3/freelance/Driver.py", line 157, in login
+    session_firefox = self.redis.get_free_session()
+  File "/home/amine/version3/freelance/RedisMaster.py", line 15, in get_free_session
+    result = json.loads(result)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+INFO : 2021-02-08 12:03:57,323 - THREAD : opening ea url
+INFO : 2021-02-08 12:03:57,324 - THREAD : opening ea url
+INFO : 2021-02-08 12:03:57,342 - THREAD : opening ea url
+INFO : 2021-02-08 12:03:57,395 - THREAD : opening ea url
+INFO : 2021-02-08 12:03:57,465 - THREAD : opening ea url
+INFO : 2021-02-08 12:03:57,526 - THREAD : opening ea url
+INFO : 2021-02-08 12:04:02,700 - THREAD : saving session to query 
+INFO : 2021-02-08 12:04:02,702 - session added to query ! 1
+INFO : 2021-02-08 12:04:02,905 - THREAD : saving session to query 
+INFO : 2021-02-08 12:04:02,906 - session added to query ! 2
+INFO : 2021-02-08 12:04:03,168 - THREAD : saving session to query 
+INFO : 2021-02-08 12:04:03,171 - session added to query ! 3
+INFO : 2021-02-08 12:04:03,329 - THREAD : saving session to query 
+INFO : 2021-02-08 12:04:03,330 - session added to query ! 4
+INFO : 2021-02-08 12:04:03,516 - THREAD : saving session to query 
+INFO : 2021-02-08 12:04:03,521 - session added to query ! 5
+INFO : 2021-02-08 12:04:03,662 - THREAD : saving session to query 
+INFO : 2021-02-08 12:04:03,663 - session added to query ! 6
+INFO : 2021-02-08 12:16:35,708 - getting infos..
+INFO : 2021-02-08 12:23:08,095 - new user in !
+INFO : 2021-02-08 12:23:08,109 - new user in !
+INFO : 2021-02-08 12:23:08,799 - new user in !
+INFO : 2021-02-08 12:28:21,887 - getting infos..
+INFO : 2021-02-08 12:33:34,259 - new user in !
+INFO : 2021-02-08 12:50:55,118 - getting infos..
+INFO : 2021-02-08 13:05:41,734 - new user in !
+INFO : 2021-02-08 13:06:28,422 - getting free session...
+INFO : 2021-02-08 13:06:28,440 - session imported from query ! b'{"session_id": "9840d07659ffdd6deac781bb9c79f10b", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 13:06:28,440 - free sessions => 5
+INFO : 2021-02-08 13:06:28,440 - free session => {'session_id': '9840d07659ffdd6deac781bb9c79f10b', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 13:06:28,440 - connecting to a free Session .. 
+WARNING : 2021-02-08 13:06:28,466 - trying again
+INFO : 2021-02-08 13:06:28,466 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 13:06:28,466 - THREAD CREATED
+INFO : 2021-02-08 13:06:28,466 - setting up ip address
+INFO : 2021-02-08 13:06:28,482 - creating a remote session !
+INFO : 2021-02-08 13:06:28,482 - THREAD : STARTED
+INFO : 2021-02-08 13:06:28,483 - getting free session...
+INFO : 2021-02-08 13:06:28,483 - session imported from query ! b'{"session_id": "9840d07659ffdd6deac781bb9c79f10b", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 13:06:28,484 - free sessions => 4
+INFO : 2021-02-08 13:06:28,484 - free session => {'session_id': '9840d07659ffdd6deac781bb9c79f10b', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 13:06:28,484 - connecting to a free Session .. 
+INFO : 2021-02-08 13:06:28,488 - THREAD : opening ea url
+WARNING : 2021-02-08 13:06:28,507 - trying again
+INFO : 2021-02-08 13:06:28,507 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 13:06:28,507 - THREAD CREATED
+INFO : 2021-02-08 13:06:28,507 - setting up ip address
+INFO : 2021-02-08 13:06:28,508 - creating a remote session !
+INFO : 2021-02-08 13:06:28,508 - THREAD : STARTED
+INFO : 2021-02-08 13:06:28,508 - getting free session...
+INFO : 2021-02-08 13:06:28,510 - session imported from query ! b'{"session_id": "9840d07659ffdd6deac781bb9c79f10b", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 13:06:28,510 - free sessions => 3
+INFO : 2021-02-08 13:06:28,510 - free session => {'session_id': '9840d07659ffdd6deac781bb9c79f10b', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 13:06:28,510 - connecting to a free Session .. 
+INFO : 2021-02-08 13:06:28,512 - THREAD : opening ea url
+WARNING : 2021-02-08 13:06:28,521 - trying again
+INFO : 2021-02-08 13:06:28,521 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 13:06:28,521 - THREAD CREATED
+INFO : 2021-02-08 13:06:28,523 - setting up ip address
+INFO : 2021-02-08 13:06:28,524 - creating a remote session !
+INFO : 2021-02-08 13:06:28,524 - THREAD : STARTED
+INFO : 2021-02-08 13:06:28,524 - getting free session...
+INFO : 2021-02-08 13:06:28,526 - session imported from query ! b'{"session_id": "9840d07659ffdd6deac781bb9c79f10b", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 13:06:28,527 - free sessions => 2
+INFO : 2021-02-08 13:06:28,527 - free session => {'session_id': '9840d07659ffdd6deac781bb9c79f10b', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 13:06:28,527 - connecting to a free Session .. 
+WARNING : 2021-02-08 13:06:28,536 - trying again
+INFO : 2021-02-08 13:06:28,536 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 13:06:28,537 - THREAD CREATED
+INFO : 2021-02-08 13:06:28,537 - setting up ip address
+INFO : 2021-02-08 13:06:28,538 - creating a remote session !
+INFO : 2021-02-08 13:06:28,538 - THREAD : STARTED
+INFO : 2021-02-08 13:06:28,538 - getting free session...
+INFO : 2021-02-08 13:06:28,539 - session imported from query ! b'{"session_id": "9840d07659ffdd6deac781bb9c79f10b", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 13:06:28,540 - free sessions => 1
+INFO : 2021-02-08 13:06:28,540 - free session => {'session_id': '9840d07659ffdd6deac781bb9c79f10b', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 13:06:28,540 - connecting to a free Session .. 
+INFO : 2021-02-08 13:06:28,542 - THREAD : opening ea url
+WARNING : 2021-02-08 13:06:28,564 - trying again
+INFO : 2021-02-08 13:06:28,564 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 13:06:28,564 - THREAD CREATED
+INFO : 2021-02-08 13:06:28,564 - setting up ip address
+INFO : 2021-02-08 13:06:28,565 - creating a remote session !
+INFO : 2021-02-08 13:06:28,566 - THREAD : STARTED
+INFO : 2021-02-08 13:06:28,566 - getting free session...
+INFO : 2021-02-08 13:06:28,568 - session imported from query ! b'{"session_id": "9840d07659ffdd6deac781bb9c79f10b", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 13:06:28,569 - free sessions => 0
+INFO : 2021-02-08 13:06:28,569 - free session => {'session_id': '9840d07659ffdd6deac781bb9c79f10b', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 13:06:28,569 - connecting to a free Session .. 
+WARNING : 2021-02-08 13:06:28,585 - trying again
+INFO : 2021-02-08 13:06:28,585 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 13:06:28,585 - THREAD CREATED
+INFO : 2021-02-08 13:06:28,585 - setting up ip address
+INFO : 2021-02-08 13:06:28,586 - creating a remote session !
+INFO : 2021-02-08 13:06:28,587 - THREAD : STARTED
+INFO : 2021-02-08 13:06:28,587 - getting free session...
+INFO : 2021-02-08 13:06:28,592 - session imported from query ! None
+INFO : 2021-02-08 13:06:28,593 - free sessions => 0
+ERROR : 2021-02-08 13:06:28,593 - Exception on /processing [POST]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python3.8/dist-packages/flask_cors/extension.py", line 165, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.8/dist-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python3.8/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/amine/version3/freelance/app.py", line 133, in process
+    status = driver.login(_id, email, password)
+  File "/home/amine/version3/freelance/Driver.py", line 157, in login
+    session_firefox = self.redis.get_free_session()
+  File "/home/amine/version3/freelance/RedisMaster.py", line 15, in get_free_session
+    result = json.loads(result)
+  File "/usr/lib/python3.8/json/__init__.py", line 341, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+TypeError: the JSON object must be str, bytes or bytearray, not NoneType
+INFO : 2021-02-08 13:06:29,657 - THREAD : opening ea url
+INFO : 2021-02-08 13:06:29,666 - THREAD : opening ea url
+INFO : 2021-02-08 13:06:29,725 - THREAD : opening ea url
+INFO : 2021-02-08 13:06:33,712 - THREAD : saving session to query 
+INFO : 2021-02-08 13:06:33,713 - session added to query ! 1
+INFO : 2021-02-08 13:06:34,081 - THREAD : saving session to query 
+INFO : 2021-02-08 13:06:34,082 - session added to query ! 2
+INFO : 2021-02-08 13:06:34,612 - THREAD : saving session to query 
+INFO : 2021-02-08 13:06:34,613 - session added to query ! 3
+INFO : 2021-02-08 13:23:15,905 - getting infos..
+INFO : 2021-02-08 13:32:30,621 - new user in !
+INFO : 2021-02-08 13:33:02,603 - new user in !
+INFO : 2021-02-08 13:55:25,630 - new user in !
+INFO : 2021-02-08 14:17:58,514 - new user in !
+INFO : 2021-02-08 14:18:06,737 - new user in !
+INFO : 2021-02-08 14:19:38,429 - new user in !
+INFO : 2021-02-08 14:19:38,835 - new user in !
+INFO : 2021-02-08 14:19:39,506 - new user in !
+INFO : 2021-02-08 14:23:30,104 - getting infos..
+INFO : 2021-02-08 14:25:56,037 - new user in !
+INFO : 2021-02-08 14:26:46,413 - MariaDb has succussfully connected
+INFO : 2021-02-08 14:26:46,413 - MariaDb has succussfully connected
+INFO : 2021-02-08 14:26:46,415 - setting up ip address
+INFO : 2021-02-08 14:26:46,415 - setting up ip address
+INFO : 2021-02-08 14:26:46,416 - MariaDb has succussfully connected
+INFO : 2021-02-08 14:26:46,417 - MariaDb has succussfully connected
+INFO : 2021-02-08 14:26:46,417 - MariaDb has succussfully connected
+INFO : 2021-02-08 14:26:46,415 - MariaDb has succussfully connected
+INFO : 2021-02-08 14:26:46,420 - setting up ip address
+INFO : 2021-02-08 14:26:46,421 - setting up ip address
+INFO : 2021-02-08 14:26:46,419 - setting up ip address
+INFO : 2021-02-08 14:26:46,423 - setting up ip address
+INFO : 2021-02-08 14:26:46,425 - MariaDb has succussfully connected
+INFO : 2021-02-08 14:26:46,430 - MariaDb has succussfully connected
+INFO : 2021-02-08 14:26:46,430 - MariaDb has succussfully connected
+INFO : 2021-02-08 14:26:46,432 - setting up ip address
+INFO : 2021-02-08 14:26:46,432 - setting up ip address
+INFO : 2021-02-08 14:26:46,434 - MariaDb has succussfully connected
+INFO : 2021-02-08 14:26:46,436 - setting up ip address
+INFO : 2021-02-08 14:26:46,439 - setting up ip address
+INFO : 2021-02-08 14:26:46,442 - creating a remote session !
+INFO : 2021-02-08 14:26:46,443 - creating a remote session !
+INFO : 2021-02-08 14:26:46,443 - creating a remote session !
+INFO : 2021-02-08 14:26:46,443 - creating a remote session !
+INFO : 2021-02-08 14:26:46,444 - creating a remote session !
+INFO : 2021-02-08 14:26:46,443 - creating a remote session !
+INFO : 2021-02-08 14:26:46,444 - creating a remote session !
+INFO : 2021-02-08 14:26:46,444 - creating a remote session !
+INFO : 2021-02-08 14:26:46,446 - creating a remote session !
+INFO : 2021-02-08 14:26:46,487 - creating a remote session !
+INFO : 2021-02-08 14:26:48,827 - THREAD : opening ea url
+INFO : 2021-02-08 14:26:48,828 - THREAD : opening ea url
+INFO : 2021-02-08 14:26:48,856 - THREAD : opening ea url
+INFO : 2021-02-08 14:26:48,945 - THREAD : opening ea url
+INFO : 2021-02-08 14:26:49,021 - THREAD : opening ea url
+INFO : 2021-02-08 14:26:49,183 - THREAD : opening ea url
+INFO : 2021-02-08 14:26:49,549 - THREAD : opening ea url
+INFO : 2021-02-08 14:26:49,660 - THREAD : opening ea url
+INFO : 2021-02-08 14:26:49,679 - THREAD : opening ea url
+INFO : 2021-02-08 14:26:50,092 - THREAD : opening ea url
+INFO : 2021-02-08 14:26:54,687 - THREAD : saving session to query 
+INFO : 2021-02-08 14:26:54,690 - session added to query ! 1
+INFO : 2021-02-08 14:26:54,775 - THREAD : saving session to query 
+INFO : 2021-02-08 14:26:54,782 - session added to query ! 2
+INFO : 2021-02-08 14:26:54,825 - THREAD : saving session to query 
+INFO : 2021-02-08 14:26:54,827 - session added to query ! 3
+INFO : 2021-02-08 14:26:54,924 - THREAD : saving session to query 
+INFO : 2021-02-08 14:26:54,925 - session added to query ! 4
+INFO : 2021-02-08 14:26:55,044 - THREAD : saving session to query 
+INFO : 2021-02-08 14:26:55,048 - session added to query ! 5
+INFO : 2021-02-08 14:26:55,502 - THREAD : saving session to query 
+INFO : 2021-02-08 14:26:55,504 - session added to query ! 6
+INFO : 2021-02-08 14:26:55,650 - THREAD : saving session to query 
+INFO : 2021-02-08 14:26:55,652 - THREAD : saving session to query 
+INFO : 2021-02-08 14:26:55,659 - session added to query ! 8
+INFO : 2021-02-08 14:26:55,659 - session added to query ! 7
+INFO : 2021-02-08 14:26:55,917 - THREAD : saving session to query 
+INFO : 2021-02-08 14:26:55,923 - session added to query ! 9
+INFO : 2021-02-08 14:26:56,163 - THREAD : saving session to query 
+INFO : 2021-02-08 14:26:56,164 - session added to query ! 10
+INFO : 2021-02-08 14:28:43,127 - new user in !
+INFO : 2021-02-08 14:28:47,534 - getting free session...
+INFO : 2021-02-08 14:28:47,535 - session imported from query ! b'{"session_id": "95840590771ac8caf05ed879bab12f65", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 14:28:47,539 - free sessions => 9
+INFO : 2021-02-08 14:28:47,541 - free session => {'session_id': '95840590771ac8caf05ed879bab12f65', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-08 14:28:47,541 - connecting to a free Session .. 
+INFO : 2021-02-08 14:28:47,571 - https://signin.ea.com/p/web2/login?execution=e1853228381s1&initref=https%3A%2F%2Faccounts.ea.com%3A443%2Fconnect%2Fauth%3Fdisplay%3Dweb2%252Flogin%26scope%3Dbasic.identity%2Boffline%2Bsignin%2Bbasic.entitlement%2Bbasic.persona%26response_type%3Dtoken%26release_type%3Dprod%26redirect_uri%3Dhttps%253A%252F%252Fwww.ea.com%252Ffifa%252Fultimate-team%252Fweb-app%252Fauth.html%26accessToken%3Dnull%26locale%3Den_US%26prompt%3Dlogin%26client_id%3DFIFA21_JS_WEB_APP
+INFO : 2021-02-08 14:28:47,571 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-08 14:28:47,572 - THREAD CREATED
+INFO : 2021-02-08 14:28:47,576 - THREAD : creating a remote session !
+INFO : 2021-02-08 14:28:47,576 - THREAD : STARTED
+INFO : 2021-02-08 14:28:47,577 - THREAD : attach to session perfectly
+WARNING : 2021-02-08 14:28:47,577 - victim : skidrow.crack1@gmail.com Aminewaka123!
+INFO : 2021-02-08 14:28:47,590 - locating fields ..
+INFO : 2021-02-08 14:28:47,935 - writing keys
+INFO : 2021-02-08 14:28:49,699 - THREAD : opening ea url
+INFO : 2021-02-08 14:28:52,281 - login in..
+INFO : 2021-02-08 14:28:52,330 - logged-in succesfully
+INFO : 2021-02-08 14:28:53,473 - Saving current session
+INFO : 2021-02-08 14:28:53,475 - session saved to query ! 1
+INFO : 2021-02-08 14:28:53,475 - succ
+INFO : 2021-02-08 14:28:53,475 - skidrow.crack1@gmail.com Aminewaka123! 197.238.59.154
+WARNING : 2021-02-08 14:28:53,475 - succ
+INFO : 2021-02-08 14:28:53,488 - login infos added
+INFO : 2021-02-08 14:28:55,432 - THREAD : saving session to query 
+INFO : 2021-02-08 14:28:55,432 - session added to query ! 10
+INFO : 2021-02-08 14:29:38,142 - connecting to ur Session .. 
+INFO : 2021-02-08 14:29:38,143 - getting MY SESSION...
+INFO : 2021-02-08 14:29:38,144 - session -> b'{"session_id": "95840590771ac8caf05ed879bab12f65", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-08 14:29:38,145 - locating fields ..
+INFO : 2021-02-08 14:29:38,173 - sending keys
+INFO : 2021-02-08 14:29:39,190 - button clicked
+INFO : 2021-02-08 14:29:42,208 - GOT Cookies
+INFO : 2021-02-08 14:29:42,269 - 11129542021-02-08 14:28:47.533951 545454 197.238.59.154 [{"domain": "signin.ea.com", "expiry": 1613395730, "httponly": true, "name": "isphone", "path": "/", "samesite": "none", "secure": true, "value": "false"}, {"domain": "signin.ea.com", "expiry": 1613395730, "httponly": true, "name": "ispogo", "path": "/", "samesite": "none", "secure": true, "value": "false"}, {"domain": "signin.ea.com", "expiry": 1613395730, "httponly": true, "name": "webun", "path": "/", "samesite": "none", "secure": true, "value": "skidrow.crack1@gmail.com"}, {"domain": ".ea.com", "expiry": 1675862813, "httponly": false, "name": "_ga", "path": "/", "secure": false, "value": "ga1.2.352447952.1612790813"}, {"domain": "signin.ea.com", "httponly": true, "name": "signin-cookie", "path": "/", "samesite": "none", "secure": true, "value": ""620c93699eeebb6e""}, {"domain": ".ea.com", "expiry": 1612790990, "httponly": false, "name": "_gat", "path": "/", "secure": false, "value": "1"}, {"domain": ".ea.com", "expiry": 1612877213, "httponly": false, "name": "_gid", "path": "/", "secure": false, "value": "ga1.2.660621144.1612790813"}, {"domain": "signin.ea.com", "httponly": true, "name": "jsessionid", "path": "/p", "samesite": "none", "secure": true, "value": "ccc55ee236c904160681ac198bf5c225.prdaccounts-39"}]
+INFO : 2021-02-08 14:29:42,272 - code added
+INFO : 2021-02-08 14:29:42,274 - cookies infos added TO DB
