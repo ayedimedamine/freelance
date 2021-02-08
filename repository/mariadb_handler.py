@@ -3,7 +3,7 @@ import mariadb
 import sys 
 ### logger ###
 from log.conf_log import logger
-from db_config import HOST
+from config import HOST
 from datetime import datetime
 class MariaDB:
     def __init__(self):

@@ -10497,3 +10497,368 @@ INFO : 2021-02-08 14:29:42,208 - GOT Cookies
 INFO : 2021-02-08 14:29:42,269 - 11129542021-02-08 14:28:47.533951 545454 197.238.59.154 [{"domain": "signin.ea.com", "expiry": 1613395730, "httponly": true, "name": "isphone", "path": "/", "samesite": "none", "secure": true, "value": "false"}, {"domain": "signin.ea.com", "expiry": 1613395730, "httponly": true, "name": "ispogo", "path": "/", "samesite": "none", "secure": true, "value": "false"}, {"domain": "signin.ea.com", "expiry": 1613395730, "httponly": true, "name": "webun", "path": "/", "samesite": "none", "secure": true, "value": "skidrow.crack1@gmail.com"}, {"domain": ".ea.com", "expiry": 1675862813, "httponly": false, "name": "_ga", "path": "/", "secure": false, "value": "ga1.2.352447952.1612790813"}, {"domain": "signin.ea.com", "httponly": true, "name": "signin-cookie", "path": "/", "samesite": "none", "secure": true, "value": ""620c93699eeebb6e""}, {"domain": ".ea.com", "expiry": 1612790990, "httponly": false, "name": "_gat", "path": "/", "secure": false, "value": "1"}, {"domain": ".ea.com", "expiry": 1612877213, "httponly": false, "name": "_gid", "path": "/", "secure": false, "value": "ga1.2.660621144.1612790813"}, {"domain": "signin.ea.com", "httponly": true, "name": "jsessionid", "path": "/p", "samesite": "none", "secure": true, "value": "ccc55ee236c904160681ac198bf5c225.prdaccounts-39"}]
 INFO : 2021-02-08 14:29:42,272 - code added
 INFO : 2021-02-08 14:29:42,274 - cookies infos added TO DB
+INFO : 2021-02-08 15:08:58,282 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:08:58,284 - THREAD : setting up ip address
+INFO : 2021-02-08 15:08:58,319 - creating a remote session !
+INFO : 2021-02-08 15:08:58,376 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:08:58,379 - THREAD : setting up ip address
+INFO : 2021-02-08 15:08:58,383 - creating a remote session !
+INFO : 2021-02-08 15:08:58,413 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:08:58,416 - THREAD : setting up ip address
+INFO : 2021-02-08 15:08:58,423 - creating a remote session !
+INFO : 2021-02-08 15:08:58,456 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:08:58,459 - THREAD : setting up ip address
+INFO : 2021-02-08 15:08:58,463 - creating a remote session !
+INFO : 2021-02-08 15:08:58,624 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:08:58,626 - THREAD : setting up ip address
+INFO : 2021-02-08 15:08:58,636 - creating a remote session !
+INFO : 2021-02-08 15:08:58,678 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:08:58,680 - THREAD : setting up ip address
+INFO : 2021-02-08 15:08:58,691 - creating a remote session !
+INFO : 2021-02-08 15:08:58,712 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:08:58,714 - THREAD : setting up ip address
+INFO : 2021-02-08 15:08:58,726 - creating a remote session !
+INFO : 2021-02-08 15:08:58,788 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:08:58,791 - THREAD : setting up ip address
+INFO : 2021-02-08 15:08:58,794 - creating a remote session !
+INFO : 2021-02-08 15:08:58,830 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:08:58,831 - THREAD : setting up ip address
+INFO : 2021-02-08 15:08:58,834 - creating a remote session !
+INFO : 2021-02-08 15:08:58,868 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:08:58,870 - THREAD : setting up ip address
+INFO : 2021-02-08 15:08:58,873 - creating a remote session !
+INFO : 2021-02-08 15:09:03,948 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:04,035 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:04,134 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:04,141 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:04,183 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:04,245 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:04,254 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:06,886 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:06,891 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:06,893 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:09,625 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:09,629 - session added to query ! 1
+INFO : 2021-02-08 15:09:10,204 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:10,206 - session added to query ! 2
+INFO : 2021-02-08 15:09:10,591 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:10,621 - session added to query ! 3
+INFO : 2021-02-08 15:09:10,829 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:10,838 - session added to query ! 4
+INFO : 2021-02-08 15:09:10,864 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:10,880 - session added to query ! 5
+INFO : 2021-02-08 15:09:11,315 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:11,319 - session added to query ! 6
+INFO : 2021-02-08 15:09:11,385 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:11,390 - session added to query ! 7
+INFO : 2021-02-08 15:09:12,001 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:12,005 - session added to query ! 8
+INFO : 2021-02-08 15:09:12,189 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:12,192 - session added to query ! 9
+INFO : 2021-02-08 15:09:12,357 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:12,358 - session added to query ! 10
+INFO : 2021-02-08 15:09:22,591 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:09:22,593 - THREAD : setting up ip address
+INFO : 2021-02-08 15:09:22,597 - creating a remote session !
+INFO : 2021-02-08 15:09:22,770 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:09:22,776 - THREAD : setting up ip address
+INFO : 2021-02-08 15:09:22,790 - creating a remote session !
+INFO : 2021-02-08 15:09:22,851 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:09:22,858 - THREAD : setting up ip address
+INFO : 2021-02-08 15:09:22,865 - creating a remote session !
+INFO : 2021-02-08 15:09:23,008 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:09:23,010 - THREAD : setting up ip address
+INFO : 2021-02-08 15:09:23,014 - creating a remote session !
+INFO : 2021-02-08 15:09:23,057 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:09:23,060 - THREAD : setting up ip address
+INFO : 2021-02-08 15:09:23,063 - creating a remote session !
+INFO : 2021-02-08 15:09:23,105 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:09:23,107 - THREAD : setting up ip address
+INFO : 2021-02-08 15:09:23,110 - creating a remote session !
+INFO : 2021-02-08 15:09:23,172 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:09:23,174 - THREAD : setting up ip address
+INFO : 2021-02-08 15:09:23,177 - creating a remote session !
+INFO : 2021-02-08 15:09:23,227 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:09:23,229 - THREAD : setting up ip address
+INFO : 2021-02-08 15:09:23,232 - creating a remote session !
+INFO : 2021-02-08 15:09:23,240 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:09:23,242 - THREAD : setting up ip address
+INFO : 2021-02-08 15:09:23,261 - creating a remote session !
+INFO : 2021-02-08 15:09:23,454 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:09:23,456 - THREAD : setting up ip address
+INFO : 2021-02-08 15:09:23,459 - creating a remote session !
+INFO : 2021-02-08 15:09:24,634 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:25,472 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:25,837 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:27,067 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:27,531 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:27,860 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:28,023 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:28,337 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:28,344 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:28,579 - THREAD : opening ea url
+INFO : 2021-02-08 15:09:30,845 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:30,851 - session added to query ! 11
+INFO : 2021-02-08 15:09:31,134 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:31,136 - session added to query ! 12
+INFO : 2021-02-08 15:09:32,025 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:32,027 - session added to query ! 13
+INFO : 2021-02-08 15:09:32,153 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:32,155 - session added to query ! 14
+INFO : 2021-02-08 15:09:32,753 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:32,755 - session added to query ! 15
+INFO : 2021-02-08 15:09:32,857 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:32,861 - session added to query ! 16
+INFO : 2021-02-08 15:09:32,980 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:32,985 - session added to query ! 17
+INFO : 2021-02-08 15:09:33,215 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:33,219 - session added to query ! 18
+INFO : 2021-02-08 15:09:33,258 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:33,260 - session added to query ! 19
+INFO : 2021-02-08 15:09:33,615 - THREAD : saving session to query 
+INFO : 2021-02-08 15:09:33,616 - session added to query ! 20
+INFO : 2021-02-08 15:10:08,455 - new user in !
+INFO : 2021-02-08 15:10:08,732 - new user in !
+INFO : 2021-02-08 15:10:32,190 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:10:32,198 - THREAD : setting up ip address
+INFO : 2021-02-08 15:10:32,200 - creating a remote session !
+INFO : 2021-02-08 15:10:32,276 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:10:32,278 - THREAD : setting up ip address
+INFO : 2021-02-08 15:10:32,279 - creating a remote session !
+INFO : 2021-02-08 15:10:32,309 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:10:32,311 - THREAD : setting up ip address
+INFO : 2021-02-08 15:10:32,312 - creating a remote session !
+INFO : 2021-02-08 15:10:32,616 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:10:32,622 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:10:32,623 - THREAD : setting up ip address
+INFO : 2021-02-08 15:10:32,625 - creating a remote session !
+INFO : 2021-02-08 15:10:32,625 - THREAD : setting up ip address
+INFO : 2021-02-08 15:10:32,626 - creating a remote session !
+INFO : 2021-02-08 15:10:32,785 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:10:32,788 - THREAD : setting up ip address
+INFO : 2021-02-08 15:10:32,788 - creating a remote session !
+INFO : 2021-02-08 15:10:32,795 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:10:32,797 - THREAD : setting up ip address
+INFO : 2021-02-08 15:10:32,798 - creating a remote session !
+INFO : 2021-02-08 15:10:32,823 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:10:32,825 - THREAD : setting up ip address
+INFO : 2021-02-08 15:10:32,829 - creating a remote session !
+INFO : 2021-02-08 15:10:33,002 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:10:33,004 - THREAD : setting up ip address
+INFO : 2021-02-08 15:10:33,005 - creating a remote session !
+INFO : 2021-02-08 15:10:33,243 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:10:33,246 - THREAD : setting up ip address
+INFO : 2021-02-08 15:10:33,260 - creating a remote session !
+INFO : 2021-02-08 15:10:36,205 - THREAD : opening ea url
+INFO : 2021-02-08 15:10:36,440 - THREAD : opening ea url
+INFO : 2021-02-08 15:10:39,464 - THREAD : opening ea url
+INFO : 2021-02-08 15:10:40,292 - THREAD : opening ea url
+INFO : 2021-02-08 15:10:40,663 - THREAD : opening ea url
+INFO : 2021-02-08 15:10:41,140 - THREAD : opening ea url
+INFO : 2021-02-08 15:10:41,207 - THREAD : opening ea url
+INFO : 2021-02-08 15:10:41,532 - THREAD : opening ea url
+INFO : 2021-02-08 15:10:41,851 - THREAD : opening ea url
+INFO : 2021-02-08 15:10:42,116 - THREAD : opening ea url
+INFO : 2021-02-08 15:10:43,666 - THREAD : saving session to query 
+INFO : 2021-02-08 15:10:43,668 - session added to query ! 21
+INFO : 2021-02-08 15:10:43,902 - THREAD : saving session to query 
+INFO : 2021-02-08 15:10:43,903 - session added to query ! 22
+INFO : 2021-02-08 15:10:44,459 - THREAD : saving session to query 
+INFO : 2021-02-08 15:10:44,461 - session added to query ! 23
+INFO : 2021-02-08 15:10:45,530 - THREAD : saving session to query 
+INFO : 2021-02-08 15:10:45,532 - session added to query ! 24
+INFO : 2021-02-08 15:10:46,537 - THREAD : saving session to query 
+INFO : 2021-02-08 15:10:46,538 - session added to query ! 25
+INFO : 2021-02-08 15:10:47,568 - THREAD : saving session to query 
+INFO : 2021-02-08 15:10:47,569 - session added to query ! 26
+INFO : 2021-02-08 15:10:48,053 - THREAD : saving session to query 
+INFO : 2021-02-08 15:10:48,054 - session added to query ! 27
+INFO : 2021-02-08 15:10:48,241 - THREAD : saving session to query 
+INFO : 2021-02-08 15:10:48,243 - session added to query ! 28
+INFO : 2021-02-08 15:10:48,371 - THREAD : saving session to query 
+INFO : 2021-02-08 15:10:48,372 - session added to query ! 29
+INFO : 2021-02-08 15:10:49,585 - THREAD : saving session to query 
+INFO : 2021-02-08 15:10:49,596 - session added to query ! 30
+INFO : 2021-02-08 15:11:50,402 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:11:50,404 - THREAD : setting up ip address
+INFO : 2021-02-08 15:11:50,405 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:11:50,405 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:11:50,406 - creating a remote session !
+INFO : 2021-02-08 15:11:50,407 - THREAD : setting up ip address
+INFO : 2021-02-08 15:11:50,407 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:11:50,408 - creating a remote session !
+INFO : 2021-02-08 15:11:50,524 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:11:50,528 - THREAD : setting up ip address
+INFO : 2021-02-08 15:11:50,528 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:11:50,529 - creating a remote session !
+INFO : 2021-02-08 15:11:50,620 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:11:50,628 - THREAD : setting up ip address
+INFO : 2021-02-08 15:11:50,628 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:11:50,629 - creating a remote session !
+INFO : 2021-02-08 15:11:50,700 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:11:50,702 - THREAD : setting up ip address
+INFO : 2021-02-08 15:11:50,703 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:11:50,703 - creating a remote session !
+INFO : 2021-02-08 15:11:50,855 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:11:50,858 - THREAD : setting up ip address
+INFO : 2021-02-08 15:11:50,858 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:11:50,868 - creating a remote session !
+INFO : 2021-02-08 15:11:50,919 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:11:50,921 - THREAD : setting up ip address
+INFO : 2021-02-08 15:11:50,922 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:11:50,923 - creating a remote session !
+INFO : 2021-02-08 15:11:51,186 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:11:51,191 - THREAD : setting up ip address
+INFO : 2021-02-08 15:11:51,191 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:11:51,217 - creating a remote session !
+INFO : 2021-02-08 15:11:51,313 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:11:51,323 - THREAD : setting up ip address
+INFO : 2021-02-08 15:11:51,323 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:11:51,327 - creating a remote session !
+INFO : 2021-02-08 15:11:51,330 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:11:51,332 - THREAD : setting up ip address
+INFO : 2021-02-08 15:11:51,333 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:11:51,334 - creating a remote session !
+INFO : 2021-02-08 15:11:55,645 - THREAD : opening ea url
+INFO : 2021-02-08 15:11:55,701 - THREAD : opening ea url
+INFO : 2021-02-08 15:11:56,160 - THREAD : opening ea url
+INFO : 2021-02-08 15:11:56,219 - THREAD : opening ea url
+INFO : 2021-02-08 15:11:56,377 - THREAD : opening ea url
+INFO : 2021-02-08 15:11:56,563 - THREAD : opening ea url
+INFO : 2021-02-08 15:11:57,714 - THREAD : opening ea url
+INFO : 2021-02-08 15:11:57,878 - THREAD : opening ea url
+INFO : 2021-02-08 15:11:58,379 - THREAD : opening ea url
+INFO : 2021-02-08 15:11:58,696 - THREAD : opening ea url
+INFO : 2021-02-08 15:12:02,422 - THREAD : saving session to query 
+INFO : 2021-02-08 15:12:02,435 - session added to query ! 31
+INFO : 2021-02-08 15:12:02,627 - THREAD : saving session to query 
+INFO : 2021-02-08 15:12:02,635 - session added to query ! 32
+INFO : 2021-02-08 15:12:03,700 - THREAD : saving session to query 
+INFO : 2021-02-08 15:12:03,702 - session added to query ! 33
+INFO : 2021-02-08 15:12:04,041 - THREAD : saving session to query 
+INFO : 2021-02-08 15:12:04,043 - session added to query ! 34
+INFO : 2021-02-08 15:12:04,070 - THREAD : saving session to query 
+INFO : 2021-02-08 15:12:04,072 - session added to query ! 35
+INFO : 2021-02-08 15:12:05,273 - THREAD : saving session to query 
+INFO : 2021-02-08 15:12:05,275 - session added to query ! 36
+INFO : 2021-02-08 15:12:05,469 - THREAD : saving session to query 
+INFO : 2021-02-08 15:12:05,478 - session added to query ! 37
+INFO : 2021-02-08 15:12:05,491 - THREAD : saving session to query 
+INFO : 2021-02-08 15:12:05,496 - session added to query ! 38
+INFO : 2021-02-08 15:12:05,875 - THREAD : saving session to query 
+INFO : 2021-02-08 15:12:05,877 - session added to query ! 39
+INFO : 2021-02-08 15:12:06,356 - THREAD : saving session to query 
+INFO : 2021-02-08 15:12:06,357 - session added to query ! 40
+INFO : 2021-02-08 15:12:27,200 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:12:27,203 - THREAD : setting up ip address
+INFO : 2021-02-08 15:12:27,203 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:12:27,205 - creating a remote session !
+INFO : 2021-02-08 15:12:27,347 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:12:27,349 - THREAD : setting up ip address
+INFO : 2021-02-08 15:12:27,350 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:12:27,352 - creating a remote session !
+INFO : 2021-02-08 15:12:27,482 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:12:27,484 - THREAD : setting up ip address
+INFO : 2021-02-08 15:12:27,484 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:12:27,485 - creating a remote session !
+INFO : 2021-02-08 15:12:27,678 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:12:27,681 - THREAD : setting up ip address
+INFO : 2021-02-08 15:12:27,681 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:12:27,682 - creating a remote session !
+INFO : 2021-02-08 15:12:27,695 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:12:27,701 - THREAD : setting up ip address
+INFO : 2021-02-08 15:12:27,701 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:12:27,702 - creating a remote session !
+INFO : 2021-02-08 15:12:27,777 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:12:27,779 - THREAD : setting up ip address
+INFO : 2021-02-08 15:12:27,779 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:12:27,780 - creating a remote session !
+INFO : 2021-02-08 15:12:27,834 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:12:27,836 - THREAD : setting up ip address
+INFO : 2021-02-08 15:12:27,836 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:12:27,836 - creating a remote session !
+INFO : 2021-02-08 15:12:27,946 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:12:27,949 - THREAD : setting up ip address
+INFO : 2021-02-08 15:12:27,949 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:12:27,950 - creating a remote session !
+INFO : 2021-02-08 15:12:27,979 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:12:27,982 - THREAD : setting up ip address
+INFO : 2021-02-08 15:12:27,983 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:12:28,006 - creating a remote session !
+INFO : 2021-02-08 15:12:28,104 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:12:28,147 - THREAD : setting up ip address
+INFO : 2021-02-08 15:12:28,147 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:12:28,154 - creating a remote session !
+INFO : 2021-02-08 15:12:29,121 - THREAD : opening ea url
+INFO : 2021-02-08 15:12:34,381 - THREAD : saving session to query 
+INFO : 2021-02-08 15:12:34,382 - session added to query ! 1
+INFO : 2021-02-08 15:13:58,460 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:13:58,463 - THREAD : setting up ip address
+INFO : 2021-02-08 15:13:58,464 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:13:58,466 - creating a remote session !
+INFO : 2021-02-08 15:13:58,508 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:13:58,509 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:13:58,511 - THREAD : setting up ip address
+INFO : 2021-02-08 15:13:58,511 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:13:58,512 - creating a remote session !
+INFO : 2021-02-08 15:13:58,515 - THREAD : setting up ip address
+INFO : 2021-02-08 15:13:58,520 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:13:58,522 - creating a remote session !
+INFO : 2021-02-08 15:13:58,621 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:13:58,623 - THREAD : setting up ip address
+INFO : 2021-02-08 15:13:58,623 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:13:58,626 - creating a remote session !
+INFO : 2021-02-08 15:13:58,659 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:13:58,662 - THREAD : setting up ip address
+INFO : 2021-02-08 15:13:58,663 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:13:58,681 - creating a remote session !
+INFO : 2021-02-08 15:13:58,747 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:13:58,750 - THREAD : setting up ip address
+INFO : 2021-02-08 15:13:58,750 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:13:58,751 - creating a remote session !
+INFO : 2021-02-08 15:13:58,753 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:13:58,755 - THREAD : setting up ip address
+INFO : 2021-02-08 15:13:58,755 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:13:58,756 - creating a remote session !
+INFO : 2021-02-08 15:13:58,846 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:13:58,847 - THREAD : setting up ip address
+INFO : 2021-02-08 15:13:58,848 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:13:58,848 - creating a remote session !
+INFO : 2021-02-08 15:13:58,918 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:13:58,920 - THREAD : setting up ip address
+INFO : 2021-02-08 15:13:58,920 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:13:58,921 - creating a remote session !
+INFO : 2021-02-08 15:13:58,941 - MariaDb has succussfully connected
+INFO : 2021-02-08 15:13:58,943 - THREAD : setting up ip address
+INFO : 2021-02-08 15:13:58,943 - THREAD : IP ADDR =>http://193.233.31.196:45785
+INFO : 2021-02-08 15:13:58,944 - creating a remote session !
+INFO : 2021-02-08 15:14:03,233 - THREAD : opening ea url
+INFO : 2021-02-08 15:14:03,261 - THREAD : opening ea url
+INFO : 2021-02-08 15:14:03,264 - THREAD : opening ea url
+INFO : 2021-02-08 15:14:03,297 - THREAD : opening ea url
+INFO : 2021-02-08 15:14:03,532 - THREAD : opening ea url
+INFO : 2021-02-08 15:14:03,532 - THREAD : opening ea url
+INFO : 2021-02-08 15:14:03,543 - THREAD : opening ea url
+INFO : 2021-02-08 15:14:03,595 - THREAD : opening ea url
+INFO : 2021-02-08 15:14:03,893 - THREAD : opening ea url
+INFO : 2021-02-08 15:14:04,058 - THREAD : opening ea url
+INFO : 2021-02-08 15:14:08,715 - THREAD : saving session to query 
+INFO : 2021-02-08 15:14:08,728 - session added to query ! 1
+INFO : 2021-02-08 15:14:09,200 - THREAD : saving session to query 
+INFO : 2021-02-08 15:14:09,202 - session added to query ! 2
+INFO : 2021-02-08 15:14:09,218 - THREAD : saving session to query 
+INFO : 2021-02-08 15:14:09,220 - session added to query ! 3
+INFO : 2021-02-08 15:14:09,538 - THREAD : saving session to query 
+INFO : 2021-02-08 15:14:09,539 - session added to query ! 4
+INFO : 2021-02-08 15:14:09,685 - THREAD : saving session to query 
+INFO : 2021-02-08 15:14:09,687 - session added to query ! 5
+INFO : 2021-02-08 15:14:09,693 - THREAD : saving session to query 
+INFO : 2021-02-08 15:14:09,696 - session added to query ! 6
+INFO : 2021-02-08 15:14:09,759 - THREAD : saving session to query 
+INFO : 2021-02-08 15:14:09,762 - session added to query ! 7
+INFO : 2021-02-08 15:14:09,836 - THREAD : saving session to query 
+INFO : 2021-02-08 15:14:09,841 - session added to query ! 8
+INFO : 2021-02-08 15:14:10,186 - THREAD : saving session to query 
+INFO : 2021-02-08 15:14:10,188 - session added to query ! 9
+INFO : 2021-02-08 15:14:10,193 - THREAD : saving session to query 
+INFO : 2021-02-08 15:14:10,194 - session added to query ! 10

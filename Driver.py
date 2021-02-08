@@ -31,7 +31,7 @@ class Driver:
         #self.PROXY = "http://91.200.150.55:45785"
         # self.PROXY = "http://212.60.22.63:45785"
         self.PROXY = PRX
-        logger.info('THREAD : IP ADDR =>', self.PROXY)
+        logger.info('THREAD : IP ADDR =>{}'.format(self.PROXY))
         proxy_config = {'httpProxy': self.PROXY, 'sslProxy': self.PROXY}
         proxy_object = Proxy(raw=proxy_config)
         capabilities = DesiredCapabilities.CHROME.copy()

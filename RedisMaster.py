@@ -1,6 +1,6 @@
 import redis
 import json
-from congig import HOST
+from config import HOST
 ### logger ###
 from log.conf_log import logger
 class Redis_handler :
