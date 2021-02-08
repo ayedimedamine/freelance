@@ -1,0 +1,26 @@
+version: "3"
+services:
+  chrome:
+    image: selenium/node-chrome:4.0
+    volumes:
+      - /dev/shm:/dev/shm
+    depends_on:
+      - selenium-hub
+    environment:
+      - SE_EVENT_BUS_HOST=selenium-hub
+      - SE_EVENT_BUS_PUBLISH_PORT=4442
+      - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+      - NODE_MAX_SESSION=200
+    ports:
+      - "6900:5900"
+  selenium-hub:
+    image: selenium/hub
+    container_name: selenium-hub
+    environment:
+      - GRID_MAX_SESSION=200
+      - GRID_BROWSER_TIMEOUT=30000
+      - GRID_TIMEOUT=30000
+    ports:
+      - "4442:4442"
+      - "4443:4443"
+      - "4444:4444"

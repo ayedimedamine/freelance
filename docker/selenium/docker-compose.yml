@@ -20,6 +20,7 @@ services:
       HUB_PORT_4444_TCP_PORT: 4444
       NODE_MAX_SESSION: 200
       NODE_MAX_INSTANCES: 200
+      NODE_BROWSER_TIMEOUT: 30000
     volumes:
       - /dev/shm:/dev/shm
     ports:
