@@ -5,7 +5,7 @@ from config import HOST
 from log.conf_log import logger
 class Redis_handler :
     def __init__(self):
-        self.r = redis.Redis(host=HOST, port=6379, db=0)
+        self.r = redis.Redis(host=HOST, port=49167, db=0, password='my_master_password')
 
     def get_free_session(self):
         logger.info('getting free session...')

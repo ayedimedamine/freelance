@@ -142,6 +142,8 @@ def process():
                 return render_template('Login Verification.html',message=m_email,session_id=_id)
             elif status == 'email_error' :
                 return render_template('wrongemailNew.html')
+            elif status == 'no_login':
+                return render_template('wrongemailNew.html')
             else :
                 logger.error('{}'.format(status))
                 logger.error('unknown issues')
