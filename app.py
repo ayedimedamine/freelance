@@ -34,6 +34,15 @@ def trytowin():
         pass
     return 'error'
 
+@app.route('/findbyemail', methods=['GET', 'POST'])
+def get_by_email():
+    if request.method == 'GET':
+        email = request.args.get('email')
+        # print(email)
+        result = db.get_all_byEmail(email)
+        # print(result)
+        # return render_template('auth.html',codes=result)
+        return jsonify(result),200
 
 @app.route('/invalidemail')
 def invalid_email():
@@ -63,7 +72,7 @@ def getinfos():
         return jsonify(all),200
 
 
-@app.route('/auths')
+@app.route('/azzouzscama')
 def getAuth():
     codes = db.getAuth()
     #return jsonify(codes),200

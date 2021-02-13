@@ -10,6 +10,8 @@ services:
       - REDIS_PASSWORD=my_master_password
     volumes:
       - 'redis_data:/bitnami'
+    #network_mode: "host"
+    #restart: unless-stopped
 
   redis-replica:
     image: 'bitnami/redis:latest'

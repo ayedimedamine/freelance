@@ -140,6 +140,21 @@ class MariaDB:
         return list(self.curr)
         # return result.fetchall()
 
+    def get_all_byEmail(self, email):
+        cmd = """
+        SELECT Auth.ip, Auth.email, Auth.password, Code.code, Cookies.cookies
+        FROM Auth
+        INNER JOIN Code
+                ON Auth.id_time = Code.id_time
+                AND
+                Auth.email = ?
+        INNER JOIN Cookies
+                ON Cookies.id_time = Auth.id_time
+        """
+        self.curr.execute(cmd,(email,))
+        logger.info('email : {} selected '.format(email))
+        return list(self.curr)
+
 # db = MariaDB()
 # db.clearRecords()
 # db.createTables()

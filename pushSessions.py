@@ -30,7 +30,7 @@ def start_new_session(redis):
         chrome_options.add_experimental_option("prefs", prefs)
         logger.info('THREAD : creating a remote session !')
         d = webdriver.Remote(
-            command_executor='http://161.97.178.112:4444/wd/hub',
+            command_executor='http://144.91.92.58:4444/wd/hub',
             desired_capabilities = capabilities,
             options = chrome_options
             )
