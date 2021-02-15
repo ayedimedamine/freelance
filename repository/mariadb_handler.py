@@ -9,12 +9,12 @@ class MariaDB:
     def __init__(self):
         try: 
             self.conn = mariadb.connect( 
-                user="amine", 
-                password="amine", 
+                user="aydi", 
+                password="aydi", 
                 host=HOST, 
                 port=3307,
                 autocommit=True,
-                database="ea_python" 
+                database="ovh_ea" 
             )
             logger.info('MariaDb has succussfully connected')
             self.curr = self.conn.cursor()

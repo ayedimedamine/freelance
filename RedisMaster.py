@@ -5,14 +5,14 @@ from config import HOST
 from log.conf_log import logger
 class Redis_handler :
     def __init__(self):
-        self.r = redis.Redis(host=HOST, port=49158, db=0, password='my_master_password')
+        self.r = redis.Redis(host=HOST, port=49167, db=0, password='my_master_password')
 
     def get_free_session(self):
         logger.info('getting free session...')
-        result = self.r.lpop('available')
+        result = self.r.lpop('available_ovh')
         
         logger.info('session imported from query ! {}'.format(result))
-        logger.info('free sessions => {}'.format(self.r.llen('available')))
+        logger.info('free sessions => {}'.format(self.r.llen('available_ovh')))
         result = json.loads(result)
         logger.info('free session => {}'.format(result))
         return result
@@ -33,7 +33,7 @@ class Redis_handler :
     def init_session(self,session_id,executor_url):
         session = {"session_id":session_id,"executor_url":executor_url}
         session = str(session).replace("'",'"')
-        result = self.r.rpush('available',session)
+        result = self.r.rpush('available_ovh',session)
         logger.info('session added to query ! {}'.format(result))
     
     

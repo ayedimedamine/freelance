@@ -46,7 +46,7 @@ class Driver:
         # chrome_options.add_argument('--remote-debugging-port=9222')
         logger.info('creating a remote session !')
         self.driverfirefox = webdriver.Remote(
-            command_executor='http://144.91.92.58:4444/wd/hub',
+            command_executor='http://161.97.178.112:4444/wd/hub',
             # desired_capabilities={'browserName': 'chrome', 'javascriptEnabled': True}
             desired_capabilities = capabilities
             # options = chrome_options
