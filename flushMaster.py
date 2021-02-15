@@ -1,6 +1,6 @@
 import redis
 from config import HOST
-r = redis.Redis(host=HOST, port=49156, db=0, password="my_master_password")
+r = redis.Redis(host=HOST, port=49158, db=0, password="my_master_password")
 print('flushing Redis master ...')
 result = r.delete('available')
 print(result)

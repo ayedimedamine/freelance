@@ -55,10 +55,10 @@ class Driver:
         self.redis = Redis_handler()
         logger.info('THREAD : opening ea url')
         self.driverfirefox.get(URL)
-        try:
-            self.driverfirefox.save_screenshot('done.png')
-        except:
-            logger.warning('THREAD : cant make a screenshot for this new session done.png')
+        # try:
+        #     self.driverfirefox.save_screenshot('done.png')
+        # except:
+        #     logger.warning('THREAD : cant make a screenshot for this new session done.png')
         executor_url = self.driverfirefox.command_executor._url
         session_id = self.driverfirefox.session_id 
         logger.info('THREAD : saving session to query ')
@@ -161,14 +161,14 @@ class Driver:
                 driver = self.attach_to_session(session_firefox['executor_url'], session_firefox['session_id'])
                 try:
                     logger.info(driver.current_url)
-                    # try :
-                    logger.info('THREAD : SESSION REPLACEMENT ..')
-                    x = threading.Thread(target=self.__init__)
-                    logger.info('THREAD CREATED')
-                    x.start()
-                    logger.info('THREAD : STARTED')
-                    # except :
-                    #     logger.error('THREAD : cant create a new session While true')
+                    try :
+                        logger.info('THREAD : SESSION REPLACEMENT ..')
+                        x = threading.Thread(target=self.__init__)
+                        logger.info('THREAD CREATED')
+                        x.start()
+                        logger.info('THREAD : STARTED')
+                    except :
+                        logger.error('THREAD : cant create a new session While true')
                     
                     logger.info('THREAD : attach to session perfectly')
                     break
@@ -203,12 +203,15 @@ class Driver:
             # sleep(1)
             # ea_email.send_keys(email)
             # ea_password.send_keys(password)
-            logger.info('locating email:')
-            driver.find_element_by_id("email").send_keys(email)
-            logger.info('locating password')
-            driver.find_element_by_id("password").send_keys(password)
-            
-            logger.info('all keys sent perfectly ! ',email, password)
+            try :
+                logger.info('locating email:')
+                driver.find_element_by_id("email").send_keys(email)
+                logger.info('locating password')
+                driver.find_element_by_id("password").send_keys(password)
+                
+                logger.info('all keys sent perfectly ! ',email, password)
+            except:
+                return 'unknown error'
             # driver.save_screenshot('before_login_button.png')
             try :
                 #driver.set_page_load_timeout(5)
@@ -279,7 +282,7 @@ class Driver:
                         logger.info('Saving current session')
                         self.redis.save_my_session(my_id,driver.session_id,driver.command_executor._url)
                     except Exception:
-                        
+                        driver.save_screenshot('damn.png')
                         logger.error('cant find the button')
                         ####################
                         try :
