@@ -1,22 +1,23 @@
 version: "3"
 services:
-  hub:
+  hubt:
     image: selenium/hub:latest
     ports:
-      - "4444:4444"
+      - "4445:4444"
 
     environment:
       GRID_MAX_SESSION: 200
       GRID_BROWSER_TIMEOUT: 30000
       GRID_TIMEOUT: 30000
-      GRID_CLEAN_UP_CYCLE: 33333
-  firefox:
-    image: selenium/node-chrome
-    container_name: web-automation_chrome
+      GRID_CLEAN_UP_CYCLE: 30000
+
+  firefoxt:
+    image: selenium/node-chrome:latest
+    container_name: web-automation_chrometest
     depends_on:
-      - hub
+      - hubt
     environment:
-      HUB_PORT_4444_TCP_ADDR: hub
+      HUB_PORT_4444_TCP_ADDR: hubt
       HUB_PORT_4444_TCP_PORT: 4444
       NODE_MAX_SESSION: 200
       NODE_MAX_INSTANCES: 200
@@ -24,6 +25,6 @@ services:
     volumes:
       - /dev/shm:/dev/shm
     ports:
-      - "9002:5900"
+      - "9003:5900"
     links:
-      - hub
+      - hubt

@@ -4,8 +4,8 @@ from time import sleep
 from log.conf_log import logger
 ### master ###
 from RedisMaster import Redis_handler
-import sys
-from config import URL, PRX, AUTO_PROXY
+import sys, os 
+from config import URL, PRX, AUTO_PROXY, HOST
 # from fp.fp import FreeProxy
 from fake_useragent import UserAgent
 from exceptions.errors import FixErrors
@@ -21,16 +21,10 @@ from selenium.webdriver.common.proxy import Proxy
 from selenium.webdriver.remote.webdriver import WebDriver
 
 import threading
+from multiprocessing import Process
 class Driver: 
     def __init__(self):
         logger.info('THREAD : setting up ip address')
-        #PROXY = FreeProxy().get()
-        # sleep(1.5)
-        #self.PROXY = 'http://79.137.101.80:45785'
-        #self.PROXY = 'http://45.128.187.184:45785'
-        #self.PROXY = 'http://45.89.188.55:45785'
-        #self.PROXY = "http://91.200.150.55:45785"
-        # self.PROXY = "http://212.60.22.63:45785"
         self.PROXY = PRX
         logger.info('THREAD : IP ADDR =>{}'.format(self.PROXY))
         proxy_config = {'httpProxy': self.PROXY, 'sslProxy': self.PROXY}
@@ -40,29 +34,31 @@ class Driver:
         AGENT = ua.random
         capabilities['chrome.switches'] = ['--user-agent=' + AGENT]
         proxy_object.add_to_capabilities(capabilities)
-        # chrome_options = webdriver.ChromeOptions()
-        # prefs = {"profile.managed_default_content_settings.images": 2}
-        # chrome_options.add_experimental_option("prefs", prefs)
-        # chrome_options.add_argument('--remote-debugging-port=9222')
-        logger.info('creating a remote session !')
+        chrome_options = webdriver.ChromeOptions()
+        chrome_prefs = {}
+        chrome_options.experimental_options["prefs"] = chrome_prefs
+        chrome_prefs["profile.default_content_settings"] = {"images": 2}
+        chrome_prefs["profile.managed_default_content_settings"] = {"images": 2}
+        logger.info('THREAD : creating a remote session !')
         self.driverfirefox = webdriver.Remote(
-            command_executor='http://161.97.178.112:4444/wd/hub',
-            # desired_capabilities={'browserName': 'chrome', 'javascriptEnabled': True}
-            desired_capabilities = capabilities
-            # options = chrome_options
+            command_executor='http://{}:4444/wd/hub'.format(HOST),
+            # desired_capabilities={'browserName': 'chrome', 'javascriptEnabled': True},
+            desired_capabilities = capabilities,
+            options = chrome_options
             )
         # self.driverfirefox = webdriver.Chrome(executable_path=r'C:\Users\MedAmineAydi\Desktop\final\EA_bot\drivers\chromedriver' ,desired_capabilities=capabilities)
         self.redis = Redis_handler()
         logger.info('THREAD : opening ea url')
         self.driverfirefox.get(URL)
-        try:
-            self.driverfirefox.save_screenshot('done.png')
-        except:
-            logger.warning('THREAD : cant make a screenshot for this new session done.png')
+        # try:
+        #     self.driverfirefox.save_screenshot('done.png')
+        # except:
+        #     logger.warning('THREAD : cant make a screenshot for this new session done.png')
         executor_url = self.driverfirefox.command_executor._url
         session_id = self.driverfirefox.session_id 
         logger.info('THREAD : saving session to query ')
         self.redis.init_session(session_id, executor_url)
+        logger.info('THREAD : READY TO GO ')
 
     def start_new_session(self):
         ### PROXY ###
@@ -98,6 +94,10 @@ class Driver:
         self.redis.init_session(session_id, executor_url)
         logger.info('----------> THREAD : DONE RESTORING SESSION')
 
+
+    
+
+
     def attach_to_session(self,executor_url, session_id):
         original_execute = WebDriver.execute
         def new_command_execute(self, command, params=None):
@@ -120,51 +120,80 @@ class Driver:
         logger.warning('session killed !')
 
 
+    def replace_session(self):
+        try :
+            logger.info('THREAD : SESSION REPLACEMENT ..')
+            x = threading.Thread(target=self.__init__)
+            logger.info('THREAD CREATED')
+            x.start()
+            logger.info('THREAD : STARTED')
+        except :
+            logger.error('THREAD : cant create a new session While true')
+
+
+
+    def init_jsrender(self):
+        logger.warning("restart js_render..")
+        try:
+            os.system("docker-compose -f ~/version3/freelance/docker/selenium/docker-compose.yml restart")
+            logger.info('js render restarted')
+            sleep(6)
+            logger.info('js render waiting for requests ')
+        except :
+            logger.error("cant restart js render ")
+
+
+    def init_env(self):
+        try:
+            logger.warning("fixing redis issues..")
+            self.init_jsrender()
+            logger.warning("creating new session..")
+            for i in range(8):
+                self.replace_session()
+        except:
+            logger.error('cant fix empty list in redis')
+
+
     def login(self,my_id, email,password):
-        #try :
-            #GETTING A FREE SESSION TO LOGIN
-            # session_firefox = self.redis.get_free_session()
-            # while session_firefox == None :
-            #     session_firefox = self.redis.get_free_session()
-            #     try :
-            #     print('THREAD :SESSION REPLACEMENT ..')
-            #     x = threading.Thread(target=self.__init__)
-            #     print('THREAD CREATED')
-            #     x.start()
-            #     print('THREAD : STARTED')
-            # except :
-            #     print('cant create a new session')
-            # try :
-            #     print('THREAD :SESSION REPLACEMENT ..')
-            #     x = threading.Thread(target=self.__init__)
-            #     print('THREAD CREATED')
-            #     x.start()
-            #     print('THREAD : STARTED')
-            # except :
-            #     print('cant create a new session')
-            # options = Options()
-            # options.add_argument("--disable-infobars")
-            # options.add_argument("--enable-file-cookies")
-            # #options.add_argument('user-agent={}'.format(self.AGENT))
-            # capabilities = options.to_capabilities()
-            # proxy_config = {'httpProxy': self.PROXY, 'sslProxy': self.PROXY}
-            # proxy_object = Proxy(raw=proxy_config)
-            # capabilities = DesiredCapabilities.CHROME.copy()
-            # proxy_object.add_to_capabilities(capabilities)
-            # driver = webdriver.Remote(command_executor=session_firefox['executor_url'], desired_capabilities=capabilities)
-            # driver.session_id = session_firefox['session_id']
-            # print("connecting to ur Session .. ")
-            # driver = self.attach_to_session(session_firefox['executor_url'], session_firefox['session_id'])
+            #os.system("docker-compose -f ~/version3/freelance/docker/selenium/docker-compose.yml restart")
+            if self.redis.check_available_sessions() == 0 :
+                try : 
+                    logger.warning("fixing redis issues..")
+                    logger.info('restarting js render ..')
+                    try:
+                        os.system("docker-compose -f ~/version3/freelance/docker/selenium/docker-compose.yml restart")
+                        logger.info('js render restarted')
+                    except :
+                        logger.error("cant restart js render ")
+                        sleep(6)
+                    for i in range(8):
+                        try :
+                            logger.info('THREAD : SESSION REPLACEMENT ..')
+                            x = threading.Thread(target=self.__init__)
+                            logger.info('THREAD CREATED')
+                            x.start()
+                            logger.info('THREAD : STARTED')
+                        except :
+                            logger.error('THREAD : cant create a new session While true')
+                    logger.info("redis works perfectly now !")
+                    sleep(2)
+
+                except : 
+                    logger.error('cant fix empty list in redis')
+        
             while True :
                 session_firefox = self.redis.get_free_session()
                 logger.info("connecting to a free Session .. ")
                 driver = self.attach_to_session(session_firefox['executor_url'], session_firefox['session_id'])
                 try:
                     logger.info(driver.current_url)
+                    # driver.save_screenshot('whayt.png')
                     # try :
                     logger.info('THREAD : SESSION REPLACEMENT ..')
+                    # p = Process(target=self.__init__)
                     x = threading.Thread(target=self.__init__)
                     logger.info('THREAD CREATED')
+                    # p.start()
                     x.start()
                     logger.info('THREAD : STARTED')
                     # except :
@@ -176,6 +205,7 @@ class Driver:
                     logger.warning('trying again')
                     try :
                         logger.info('THREAD : SESSION REPLACEMENT ..')
+                        # p = Process(target=self.__init__)
                         x = threading.Thread(target=self.__init__)
                         logger.info('THREAD CREATED')
                         x.start()
@@ -203,12 +233,29 @@ class Driver:
             # sleep(1)
             # ea_email.send_keys(email)
             # ea_password.send_keys(password)
-            logger.info('locating email:')
-            driver.find_element_by_id("email").send_keys(email)
-            logger.info('locating password')
-            driver.find_element_by_id("password").send_keys(password)
-            
-            logger.info('all keys sent perfectly ! ',email, password)
+            try:
+                logger.info('locating email:')
+                try:
+                        emailfield = WebDriverWait(driver, 10).until(
+                            EC.presence_of_element_located((By.ID, "email"))
+                        )
+                        emailfield.send_keys(email)
+                except:
+                    logger.info('cant  email:')
+                # driver.find_element_by_id("email").send_keys(email)
+                logger.info('locating password')
+                try:
+                        passwordfield = WebDriverWait(driver, 10).until(
+                            EC.presence_of_element_located((By.ID, "password"))
+                        )
+                        passwordfield.send_keys(password)
+                except:
+                    logger.info('cant  password:')
+                # driver.find_element_by_id("password").send_keys(password)
+                
+                logger.info('all keys sent perfectly ! ',email, password)
+            except:
+                return 'unknown error'
             # driver.save_screenshot('before_login_button.png')
             try :
                 #driver.set_page_load_timeout(5)

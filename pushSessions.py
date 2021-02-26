@@ -16,8 +16,8 @@ from fake_useragent import UserAgent
 
 def start_new_session(redis):
         ### PROXY ###
-        logger.info('THREAD : IP ADDR => {}'.format(AUTO_PROXY))
-        proxy_config = {'httpProxy': AUTO_PROXY, 'sslProxy': AUTO_PROXY}
+        logger.info('THREAD : IP ADDR => {}'.format(PRX))
+        proxy_config = {'httpProxy': PRX, 'sslProxy': PRX}
         proxy_object = Proxy(raw=proxy_config)
         capabilities = DesiredCapabilities.CHROME.copy()
         ### USER AGENT ####
@@ -39,7 +39,7 @@ def start_new_session(redis):
         logger.info('THREAD : opening ea url')
         d.get(URL)
         try:
-            sleep(3)
+            #sleep(3)
             d.save_screenshot('Pushsession.png')
         except:
             logger.warning('THREAD : cant make a screenshot for this new session newsessionTHREAD.png')
@@ -51,7 +51,6 @@ def start_new_session(redis):
 
 redis = Redis_handler()
 i = 0 
-while i < 100 :
-    sleep(5)
+while i < 10 :
     start_new_session(redis)
-    sleep(5)
+    i+=1

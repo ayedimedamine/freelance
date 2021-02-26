@@ -1,4 +1,5 @@
 selenium
+gunicorn
 email_validator
 flask
 flask_cors
