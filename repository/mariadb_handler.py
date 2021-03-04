@@ -3,7 +3,7 @@ import mariadb
 import sys 
 ### logger ###
 from log.conf_log import logger
-from config import HOST
+from config import HOST, IP
 from datetime import datetime
 class MariaDB:
     def __init__(self):
@@ -11,7 +11,7 @@ class MariaDB:
             self.conn = mariadb.connect( 
                 user="amine", 
                 password="amine", 
-                host= "161.97.178.112", 
+                host= IP, 
                 port=3307,
                 autocommit=True,
                 database="ea_python" 

@@ -4,6 +4,7 @@ URL2 ="https://signin.ea.com/p/web2/login?execution=e262010790s1&initref=https%3
 PRX = "http://23.229.126.191:45785"
 # PRX = 'http://186.65.114.7:9397'
 PRX = "http://p.webshare.io:9999"
-# HOST = "161.97.178.112"
+IP = "161.97.178.112"
+# IP = "144.91.92.58"
 HOST = "localhost"
 AUTO_PROXY = "http://144.168.149.114 :16001"
