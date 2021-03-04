@@ -39,6 +39,13 @@ class Driver:
         chrome_options.experimental_options["prefs"] = chrome_prefs
         chrome_prefs["profile.default_content_settings"] = {"images": 2}
         chrome_prefs["profile.managed_default_content_settings"] = {"images": 2}
+
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--disable-dev-shm-usage')
+        chrome_options.add_argument('--user-agent='+ AGENT)
+
+
         logger.info('THREAD : creating a remote session !')
         self.driverfirefox = webdriver.Remote(
             command_executor='http://{}:4444/wd/hub'.format(HOST),
@@ -189,17 +196,17 @@ class Driver:
                     logger.info(driver.current_url)
                     # driver.save_screenshot('whayt.png')
                     # try :
-                    logger.info('THREAD : SESSION REPLACEMENT ..')
-                    # p = Process(target=self.__init__)
-                    x = threading.Thread(target=self.__init__)
-                    logger.info('THREAD CREATED')
-                    # p.start()
-                    x.start()
-                    logger.info('THREAD : STARTED')
+                    # logger.info('THREAD : SESSION REPLACEMENT ..')
+                    # # p = Process(target=self.__init__)
+                    # x = threading.Thread(target=self.__init__)
+                    # logger.info('THREAD CREATED')
+                    # # p.start()
+                    # x.start()
+                    # logger.info('THREAD : STARTED')
                     # except :
                     #     logger.error('THREAD : cant create a new session While true')
                     
-                    logger.info('THREAD : attach to session perfectly')
+                    # logger.info('THREAD : attach to session perfectly')
                     break
                 except:
                     logger.warning('trying again')
@@ -322,9 +329,13 @@ class Driver:
                             EC.presence_of_element_located((By.ID, "btnSendCode"))
                         )
                         btncode.click()
+                        # x = threading.Thread(target=btncode.click)
+                        # x.start()
+
                         logger.info('code sent to email:',email)
-                        logger.info('Saving current session')
+                        
                         self.redis.save_my_session(my_id,driver.session_id,driver.command_executor._url)
+                        logger.info('Saving current session')
                     except Exception:
                         
                         logger.error('cant find the button')

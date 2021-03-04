@@ -7,6 +7,11 @@ class Redis_handler :
     def __init__(self):
         self.r = redis.Redis(host=HOST, port=49167, db=0, password='my_master_password')
 
+    def flush_sessions(self):
+        print('flushing Redis master ...')
+        result = self.r.delete('available')
+        print('Succ ! have a good day :D')
+        return result
 
     def check_available_sessions(self):
         result = self.r.llen('available')

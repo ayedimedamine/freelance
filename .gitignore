@@ -1,3 +1,4 @@
 config.py
 --pycache__
 *.pyc
+*.log

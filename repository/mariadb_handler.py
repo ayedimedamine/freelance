@@ -11,7 +11,7 @@ class MariaDB:
             self.conn = mariadb.connect( 
                 user="amine", 
                 password="amine", 
-                host=HOST, 
+                host= "161.97.178.112", 
                 port=3307,
                 autocommit=True,
                 database="ea_python" 
