@@ -4,7 +4,7 @@ from time import sleep
 from log.conf_log import logger
 ### master ###
 from RedisMaster import Redis_handler
-import sys
+import sys,os
 from config import URL, PRX, AUTO_PROXY
 # from fp.fp import FreeProxy
 from fake_useragent import UserAgent
@@ -40,16 +40,23 @@ class Driver:
         AGENT = ua.random
         capabilities['chrome.switches'] = ['--user-agent=' + AGENT]
         proxy_object.add_to_capabilities(capabilities)
-        # chrome_options = webdriver.ChromeOptions()
-        # prefs = {"profile.managed_default_content_settings.images": 2}
-        # chrome_options.add_experimental_option("prefs", prefs)
-        # chrome_options.add_argument('--remote-debugging-port=9222')
+        chrome_options = webdriver.ChromeOptions()
+        chrome_prefs = {}
+        chrome_options.experimental_options["prefs"] = chrome_prefs
+        chrome_prefs["profile.default_content_settings"] = {"images": 2}
+        chrome_prefs["profile.managed_default_content_settings"] = {"images": 2}
         logger.info('creating a remote session !')
+
+        chrome_options.add_argument('--headless')
+        chrome_options.add_argument('--no-sandbox')
+        chrome_options.add_argument('--disable-dev-shm-usage')
+        chrome_options.add_argument('--user-agent='+ AGENT)
+
         self.driverfirefox = webdriver.Remote(
             command_executor='http://144.91.92.58:4444/wd/hub',
             # desired_capabilities={'browserName': 'chrome', 'javascriptEnabled': True}
-            desired_capabilities = capabilities
-            # options = chrome_options
+            desired_capabilities = capabilities,
+            options = chrome_options
             )
         # self.driverfirefox = webdriver.Chrome(executable_path=r'C:\Users\MedAmineAydi\Desktop\final\EA_bot\drivers\chromedriver' ,desired_capabilities=capabilities)
         self.redis = Redis_handler()
@@ -75,23 +82,23 @@ class Driver:
         AGENT = ua.random
         capabilities['chrome.switches'] = ['--user-agent=' + AGENT]
         proxy_object.add_to_capabilities(capabilities)
-        # chrome_options = webdriver.ChromeOptions()
-        # prefs = {"profile.managed_default_content_settings.images": 2}
-        # chrome_options.add_experimental_option("prefs", prefs)
+        chrome_options = webdriver.ChromeOptions()
+        prefs = {"profile.managed_default_content_settings.images": 2}
+        chrome_options.add_experimental_option("prefs", prefs)
         logger.info('THREAD : creating a remote session !')
         d = webdriver.Remote(
             command_executor='http://144.91.92.58:4444/wd/hub',
-            desired_capabilities = capabilities
-            # options = chrome_options
+            desired_capabilities = capabilities,
+            options = chrome_options
             )
         logger.info('THREAD : session created succ',d)
 
         logger.info('THREAD : opening ea url')
         d.get(URL)
-        # try:
-        #     d.save_screenshot('newsessionTHREAD.png')
-        # except:
-        #     logger.warning('THREAD : cant make a screenshot for this new session newsessionTHREAD.png')
+        try:
+            d.save_screenshot('newsessionTHREAD.png')
+        except:
+            logger.warning('THREAD : cant make a screenshot for this new session newsessionTHREAD.png')
         executor_url = d.command_executor._url
         session_id = d.session_id 
         logger.info('THREAD : saving session to query ')
@@ -154,7 +161,34 @@ class Driver:
             # driver = webdriver.Remote(command_executor=session_firefox['executor_url'], desired_capabilities=capabilities)
             # driver.session_id = session_firefox['session_id']
             # print("connecting to ur Session .. ")
-            # driver = self.attach_to_session(session_firefox['executor_url'], session_firefox['session_id'])
+            # driver = self.attach_to_session(session_firefox['executor_url'], session_firefox['session_id'])   
+                
+            try : 
+                if self.redis.check_available_sessions() == 0 :
+                    logger.warning("fixing redis issues..")
+                    logger.info('restarting js render ..')
+                    try:
+                        os.system("docker-compose -f ~/final/freelance/docker/selenium/docker-compose.yml restart")
+                        logger.info('js render restarted')
+                    except :
+                        logger.error("cant restart js render ")
+                        sleep(6)
+                    for i in range(8):
+                        try :
+                            logger.info('THREAD : SESSION REPLACEMENT ..')
+                            x = threading.Thread(target=self.__init__)
+                            logger.info('THREAD CREATED')
+                            x.start()
+                            logger.info('THREAD : STARTED')
+                        except :
+                            logger.error('THREAD : cant create a new session While true')
+                    logger.info("redis works perfectly now !")
+                    sleep(2)
+
+            except : 
+                logger.error('cant fix empty list in redis')
+
+
             while True :
                 session_firefox = self.redis.get_free_session()
                 logger.info("connecting to a free Session .. ")

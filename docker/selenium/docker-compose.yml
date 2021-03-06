@@ -21,6 +21,7 @@ services:
       NODE_MAX_SESSION: 200
       NODE_MAX_INSTANCES: 200
       NODE_BROWSER_TIMEOUT: 30000
+      JAVA_OPTS: -Dwebdriver.chrome.whitelistedIps=
     volumes:
       - /dev/shm:/dev/shm
     ports:
